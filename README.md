@@ -1,7 +1,7 @@
 ---
 permalink: /fr/
 ---
-# 🛠️ PCBOX PCB-T106 S10 (Allwinner A523) — Rescue & Debrick Pack
+# 🛠️ PCBOX PCB-T106 S10 (Allwinner A523) — Rescue & Unbrick Pack
 
 [🇬🇧 Read this in English](README_EN.md)
 
