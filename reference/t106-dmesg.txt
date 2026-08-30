@@ -1,0 +1,1428 @@
+[   24.183166] healthd: battery l=100 v=4155 t=29.0 h=2 st=3 fc=5631000 chg=
+[   24.539561] servicemanager: Since 'activity' could not be found (requested by debug pid 1101), trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
+[   24.541492] servicemanager: Tried to start aidl service activity as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
+[   24.724882] servicemanager: Notifying apexservice they do (previously: don't) have clients when service is guaranteed to be in use
+[   24.725194] AidlLazyServiceRegistrar: Process has 1 (of 1 available) client(s) in use after notification apexservice has clients: 1
+[   24.725229] AidlLazyServiceRegistrar: Shutdown prevented by forcePersist override flag.
+[   24.725734] apexd: getActivePackages received by ApexService
+[   24.806060] servicemanager: Could not find android.hardware.power.stats.IPowerStats/default in the VINTF manifest. No alternative instances declared in VINTF.
+[   24.811239] servicemanager: Found android.frameworks.stats.IStats/default in framework VINTF manifest.
+[   24.811992] servicemanager: Found android.hardware.memtrack.IMemtrack/default in device VINTF manifest.
+[   24.990703] healthd: battery l=100 v=4155 t=29.0 h=2 st=3 fc=5631000 chg=
+[   25.007267] healthd: battery l=100 v=4155 t=29.0 h=2 st=3 fc=5631000 chg=
+[   25.023028] healthd: battery l=100 v=4155 t=29.0 h=2 st=3 fc=5631000 chg=
+[   25.040721] pdtest 0.pd-ve-test: runtime_suspend disable clock
+[   25.040820] pdtest 0.pd-vi-test: runtime_suspend disable clock
+[   25.040831] pdtest 0.pd-vo0-test: runtime_suspend disable clock
+[   25.040841] pdtest 0.pd-vo1-test: runtime_suspend disable clock
+[   25.040850] pdtest 0.pd-de-test: runtime_suspend disable clock
+[   25.040861] pdtest 0.pd-nand-test: runtime_suspend disable clock
+[   25.040880] pdtest 0.pd-pcie-test: runtime_suspend disable clock
+[   25.040901] pdtest 0.pd-dsp-test: runtime_suspend disable clock
+[   25.040921] pdtest 0.pd-npu-test: runtime_suspend disable clock
+[   25.040936] pdtest 0.pd-sram-test: runtime_suspend disable clock
+[   25.040950] pdtest 0.pd-riscv-test: runtime_suspend disable clock
+[   25.544394] init: Control message: Could not find 'aidl/activity' for ctl.interface_start from pid: 257 (/system/bin/servicemanager)
+[   25.814889] apexd: getAllPackages received by ApexService
+[   26.546001] init: Control message: Could not find 'aidl/activity' for ctl.interface_start from pid: 257 (/system/bin/servicemanager)
+[   27.545602] init: Control message: Could not find 'aidl/activity' for ctl.interface_start from pid: 257 (/system/bin/servicemanager)
+[   28.485305] init: Control message: Could not find 'aidl/sensor_privacy' for ctl.interface_start from pid: 257 (/system/bin/servicemanager)
+[   28.527164] init: service 'idmap2d' requested start, but it is already running (flags: 4)
+[   28.527218] init: Control message: Processed ctl.start for 'idmap2d' from pid: 1177 (system_server)
+[   28.937065] BpBinder: onLastStrongRef automatically unlinking death recipients: 
+[   28.939745] servicemanager: Found android.hardware.sensors.ISensors/default in device VINTF manifest.
+[   28.943082] binder: 848:848 transaction failed 29201/-1, size 0-0 line 3206
+[   28.943334] type=1400 audit(1788103607.688:47): avc:  denied  { call } for  comm="android.hardwar" scontext=u:r:hal_sensors_default:s0 tcontext=u:r:system_server:s0 tclass=binder permissive=0
+[   28.950217] servicemanager: Found android.hardware.health.IHealth/default in device VINTF manifest.
+[   28.968196] healthd: battery l=100 v=4186 t=28.9 h=2 st=3 fc=5631000 chg=
+[   28.984972] healthd: battery l=100 v=4186 t=28.9 h=2 st=3 fc=5631000 chg=
+[   28.993118] healthd: battery l=100 v=4186 t=28.9 h=2 st=3 fc=5631000 chg=
+[   29.008668] healthd: battery l=100 v=4186 t=28.9 h=2 st=3 fc=5631000 chg=
+[   29.016503] healthd: battery l=100 v=4186 t=28.9 h=2 st=3 fc=5631000 chg=
+[   29.326252] servicemanager: Could not find android.hardware.vibrator.IVibratorManager/default in the VINTF manifest. No alternative instances declared in VINTF.
+[   29.326699] servicemanager: Could not find android.hardware.vibrator.IVibrator/default in the VINTF manifest. No alternative instances declared in VINTF.
+[   29.327157] SELinux: avc:  denied  { find } for pid=1177 uid=1000 name=android.hardware.vibrator.IVibrator/vibratorfeature scontext=u:r:system_server:s0 tcontext=u:object_r:default_android_service:s0 tclass=service_manager permissive=0
+[   29.331626] servicemanager: Found android.frameworks.vibrator.IVibratorControlService/default in framework VINTF manifest.
+[   29.332048] servicemanager: Found android.frameworks.vibrator.IVibratorControlService/default in framework VINTF manifest.
+[   29.360912] healthd: battery l=100 v=4157 t=29.0 h=2 st=3 fc=5631000 chg=
+[   29.378369] healthd: battery l=100 v=4157 t=29.0 h=2 st=3 fc=5631000 chg=
+[   29.396040] healthd: battery l=100 v=4157 t=29.0 h=2 st=3 fc=5631000 chg=
+[   29.413094] healthd: battery l=100 v=4157 t=29.0 h=2 st=3 fc=5631000 chg=
+[   29.430358] healthd: battery l=100 v=4157 t=29.0 h=2 st=3 fc=5631000 chg=
+[   29.567319] type=1400 audit(1788103608.312:48): avc:  denied  { read } for  comm="android.ui" name="name" dev="sysfs" ino=36369 scontext=u:r:system_server:s0 tcontext=u:object_r:sysfs_batteryinfo:s0 tclass=file permissive=0
+[   29.624773] servicemanager: Found android.frameworks.sensorservice.ISensorManager/default in framework VINTF manifest.
+[   29.869286] init: processing action (sys.sysctl.extra_free_kbytes=*) from (/system/etc/init/hw/init.rc:1227)
+[   29.870509] init: starting service 'exec 25 (/system/bin/extra_free_kbytes.sh 12000)'...
+[   29.878729] init: ... started service 'exec 25 (/system/bin/extra_free_kbytes.sh 12000)' has pid 1295
+[   29.878904] init: SVC_EXEC service 'exec 25 (/system/bin/extra_free_kbytes.sh 12000)' pid 1295 (uid 0 gid 0+0 context default) started; waiting...
+[   30.122610] servicemanager: Could not find android.hardware.oemlock.IOemLock/default in the VINTF manifest. No alternative instances declared in VINTF.
+[   30.574452] AidlLazyServiceRegistrar: Process has 0 (of 1 available) client(s) in use after notification apexservice has clients: 0
+[   30.574484] AidlLazyServiceRegistrar: Shutdown prevented by forcePersist override flag.
+[   30.927949] type=1400 audit(1788103609.672:49): avc:  denied  { read } for  comm="main" name="u:object_r:vendor_default_prop:s0" dev="tmpfs" ino=374 scontext=u:r:zygote:s0 tcontext=u:object_r:vendor_default_prop:s0 tclass=file permissive=0
+[   31.053025] type=1400 audit(1788103609.796:50): avc:  denied  { read } for  comm="main" name="u:object_r:vendor_default_prop:s0" dev="tmpfs" ino=374 scontext=u:r:zygote:s0 tcontext=u:object_r:vendor_default_prop:s0 tclass=file permissive=0
+[   31.205299] read descriptors
+[   31.205339] read strings
+[   31.205565] read descriptors
+[   31.205582] read strings
+[   31.227805] type=1400 audit(1788103609.972:51): avc:  denied  { read } for  comm="main" name="u:object_r:vendor_default_prop:s0" dev="tmpfs" ino=374 scontext=u:r:zygote:s0 tcontext=u:object_r:vendor_default_prop:s0 tclass=file permissive=0
+[   31.294872] type=1400 audit(1788103610.040:52): avc:  denied  { read } for  comm="main" name="u:object_r:vendor_default_prop:s0" dev="tmpfs" ino=374 scontext=u:r:zygote:s0 tcontext=u:object_r:vendor_default_prop:s0 tclass=file permissive=0
+[   31.319506] type=1400 audit(1788103610.064:53): avc:  denied  { read } for  comm="main" name="u:object_r:vendor_default_prop:s0" dev="tmpfs" ino=374 scontext=u:r:zygote:s0 tcontext=u:object_r:vendor_default_prop:s0 tclass=file permissive=0
+[   31.373480] type=1400 audit(1788103610.120:54): avc:  denied  { read } for  comm="main" name="u:object_r:vendor_default_prop:s0" dev="tmpfs" ino=374 scontext=u:r:zygote:s0 tcontext=u:object_r:vendor_default_prop:s0 tclass=file permissive=0
+[   31.410231] type=1400 audit(1788103610.156:55): avc:  denied  { read } for  comm="main" name="u:object_r:vendor_default_prop:s0" dev="tmpfs" ino=374 scontext=u:r:zygote:s0 tcontext=u:object_r:vendor_default_prop:s0 tclass=file permissive=0
+[   31.463031] type=1400 audit(1788103610.208:56): avc:  denied  { read } for  comm="main" name="u:object_r:vendor_default_prop:s0" dev="tmpfs" ino=374 scontext=u:r:zygote:s0 tcontext=u:object_r:vendor_default_prop:s0 tclass=file permissive=0
+[   31.752705] axp2202-dcdc4: disabling
+[   32.228590] init: starting service 'vendor.wifi_hal_legacy'...
+[   32.239517] init: ... started service 'vendor.wifi_hal_legacy' has pid 1393
+[   32.239646] init: Control message: Processed ctl.interface_start for 'android.hardware.wifi@1.0::IWifi/default' from pid: 258 (/system/system_ext/bin/hwservicemanager)
+[   32.241054] init: service 'vendor.wifi_hal_legacy' requested start, but it is already running (flags: 134)
+[   32.241112] init: Control message: Processed ctl.interface_start for 'android.hardware.wifi@1.0::IWifi/default' from pid: 258 (/system/system_ext/bin/hwservicemanager)
+[   32.458633] >>> rwnx_mod_init()
+[   32.458679] rwnx 20240920-004-6.4.3.0 - - 241c091M (master)
+[   32.458682] Driver Release Tag: aic-rwnx-compatible(sdio)-20240920-004
+[   32.458687] aicbsp: aicbsp_set_subsys, subsys: AIC_WIFI, state to: 1
+[   32.458695] aicbsp: aicbsp_set_subsys, power state change to 1 dure to AIC_WIFI
+[   32.458699] aicbsp: aicbsp_platform_power_on
+[   32.458710] sunxi-rfkill soc@3000000:rfkill: bus_index: 1
+[   32.459336] aicbsp: aicbsp_platform_power_on disable MMC_CAP_UHS_DDR50 for host 00000000c748be14
+[   32.471534] sunxi-rfkill soc@3000000:rfkill: wlan power on success
+[   32.521667] sunxi:sunxi_mmc_host@4021000.sdmmc[INFO]: sdc set ios:clk 0Hz bm PP pm UP vdd 21 width 1 timing LEGACY(SDR12) dt B
+[   32.532552] sunxi:sunxi_mmc_host@4021000.sdmmc[INFO]: sdc set ios:clk 400000Hz bm PP pm ON vdd 21 width 1 timing LEGACY(SDR12) dt B
+[   32.545396] sunxi:sunxi_mmc_host@4021000.sdmmc[ERR]: smc 1 p1 err, cmd 52, RTO !!
+[   32.546420] sunxi:sunxi_mmc_host@4021000.sdmmc[ERR]: smc 1 p1 err, cmd 52, RTO !!
+[   32.546518] sunxi:sunxi_mmc_host@4021000.sdmmc[INFO]: sdc set ios:clk 400000Hz bm PP pm ON vdd 21 width 1 timing LEGACY(SDR12) dt B
+[   32.549592] sunxi:sunxi_mmc_host@4021000.sdmmc[INFO]: sdc set ios:clk 400000Hz bm PP pm ON vdd 21 width 1 timing LEGACY(SDR12) dt B
+[   32.561486] sunxi:sunxi_mmc_host@4021000.sdmmc[INFO]: sdc set ios:clk 400000Hz bm PP pm ON vdd 21 width 4 timing LEGACY(SDR12) dt B
+[   32.562319] sunxi:sunxi_mmc_host@4021000.sdmmc[INFO]: sdc set ios:clk 400000Hz bm PP pm ON vdd 21 width 4 timing UHS-SDR104 dt B
+[   32.562430] sunxi:sunxi_mmc_host@4021000.sdmmc[INFO]: sdc set ios:clk 208000000Hz bm PP pm ON vdd 21 width 4 timing UHS-SDR104 dt B
+[   32.562605] sunxi:sunxi_mmc_host@4021000.sdmmc[INFO]: sdc set ios:clk 200000000Hz bm PP pm ON vdd 21 width 4 timing UHS-SDR104 dt B
+[   32.562651] sunxi:sunxi_mmc_host@4021000.sdmmc[INFO]: used kernel tuning, delay = 0
+[   32.562664] sunxi:sunxi_mmc_host@4021000.sdmmc[INFO]: change sample method
+[   32.562669] sunxi:sunxi_mmc_host@4021000.sdmmc[INFO]: start tuning, tuning clk = 200000000  opcode=19
+[   32.562673] sunxi:sunxi_mmc_host@4021000.sdmmc[INFO]: ----speed mode = 6
+[   32.567390] AidlLazyServiceRegistrar: Process has 1 (of 1 available) client(s) in use after notification apexservice has clients: 1
+[   32.567427] AidlLazyServiceRegistrar: Shutdown prevented by forcePersist override flag.
+[   32.567961] apexd: getSessions() received by ApexService
+[   32.588706] sunxi:sunxi_mmc_host@4021000.sdmmc[ERR]: wait dma hold bit clear timeout
+[   32.606954] sunxi:sunxi_mmc_host@4021000.sdmmc[INFO]: tuning section: 
+[   32.606977] sunxi:sunxi_mmc_host@4021000.sdmmc[INFO]: [0-20|21] 
+[   32.606984] sunxi:sunxi_mmc_host@4021000.sdmmc[INFO]: [27-63|37] 
+[   32.606988] sunxi:sunxi_mmc_host@4021000.sdmmc[INFO]: 
+[   32.606992] sunxi:sunxi_mmc_host@4021000.sdmmc[INFO]: tuning result: 27 - 63,  best: 45
+[   32.608765] mmc1: new ultra high speed SDR104 SDIO card at address 390b
+[   32.621208] sunxi:sound-mach:[ERR]: 433 simple_parse_of(): simple_dai_link_of failed
+[   32.628710] aicbsp: aicbsp_sdio_probe:2
+[   32.628761] aicbsp: aicbsp_sdio_probe:2, matched chip: aic8800d80
+[   32.628766] aicbsp: aicbsp_sdio_probe after replace:1
+[   32.628772] aicbsp: aicbsp_sdio_probe host max clock frequecy: 208000000
+[   32.628777] aicbsp: aicwf_sdio_reg_init
+[   32.640629] sunxi:sunxi_mmc_host@4021000.sdmmc[INFO]: sdc set ios:clk 208000000Hz bm PP pm ON vdd 21 width 4 timing UHS-SDR104 dt B
+[   32.640821] sunxi:sunxi_mmc_host@4021000.sdmmc[INFO]: used kernel tuning, delay = 45
+[   32.640838] aicbsp: Set SDIO Clock 200 MHz
+[   32.641787] aicbsp: err:<aicwf_sdio_hal_irqhandler,1293>: bus err
+[   32.642923] sunxi:sound-mach:[ERR]: 433 simple_parse_of(): simple_dai_link_of failed
+[   32.653871] aicbsp: aicbsp_8800d80_fw_init, rev id: 0x7, subrev id: 0x82, is_chip_id_h: 0
+[   32.656466] rwnx_request_firmware, name: aic8800d80/fw_patch_table_8800d80_u02.bin
+[   32.656665] aicbt_patch_info_unpack bt patch version: - Jul 25 2024 16:28:40 - git 1b7233a
+[   32.657449] rwnx_request_firmware, name: aic8800d80/fw_adid_8800d80_u02.bin
+[   32.659793] rwnx_request_firmware, name: aic8800d80/fw_patch_8800d80_u02.bin
+[   32.669054] aicbt_patch_table_load bt uart baud: 1500000, flowctrl: 1, lpm_enable: 1, tx_pwr: 28463, bt mode:5.
+[   33.205449] rwnx_request_firmware, name: aic8800d80/fmacfw_8800d80_u02.bin
+[   33.269192] rd_version_val=06090101
+[   33.288047] aicsdio: aicwf_sdio_probe:1
+[   33.288084] aicsdio: aicwf_sdio_reg_init
+[   33.288163] sunxi:sunxi_mmc_host@4021000.sdmmc[INFO]: sdc set ios:clk 208000000Hz bm PP pm ON vdd 21 width 4 timing UHS-SDR104 dt B
+[   33.288339] sunxi:sunxi_mmc_host@4021000.sdmmc[INFO]: used kernel tuning, delay = 45
+[   33.293512] aicbsp: aicbsp_resv_mem_alloc_skb, alloc resv_mem_txdata succuss, id: 0, size: 98304
+[   33.294457] >>> rwnx_platform_init()
+[   33.294472] >>> rwnx_cfg80211_init()
+[   33.294480] rwnx_cfg80211_init sizeof(struct rwnx_hw):47616 
+[   33.294579] >>> rwnx_init_aic()
+[   33.294583] >>> rwnx_cmd_mgr_init()
+[   33.294906] tcp_ack_init 
+[   33.295085] >>> rwnx_send_set_stack_start_req()
+[   33.295619] is 5g support = 1, vendor_info = 0x00
+[   33.295848] Firmware Version: mi Sep 18 2024 16:40:15 - ge01f322
+[   33.295862] >>> rwnx_platform_on()
+[   33.295865] >>> rwnx_plat_fmac_load()
+[   33.296886] userconfig file path:aic8800d80/aic_userconfig_8800d80.txt 
+[   33.297052] rwnx_plat_userconfig_parsing, enable = 1
+[   33.297064] rwnx_plat_userconfig_parsing, lvl_11b_11ag_1m_2g4 = 16
+[   33.297074] rwnx_plat_userconfig_parsing, lvl_11b_11ag_2m_2g4 = 16
+[   33.297084] rwnx_plat_userconfig_parsing, lvl_11b_11ag_5m5_2g4 = 16
+[   33.297094] rwnx_plat_userconfig_parsing, lvl_11b_11ag_11m_2g4 = 16
+[   33.297104] rwnx_plat_userconfig_parsing, lvl_11b_11ag_6m_2g4 = 18
+[   33.297115] rwnx_plat_userconfig_parsing, lvl_11b_11ag_9m_2g4 = 18
+[   33.297126] rwnx_plat_userconfig_parsing, lvl_11b_11ag_12m_2g4 = 18
+[   33.297139] rwnx_plat_userconfig_parsing, lvl_11b_11ag_18m_2g4 = 18
+[   33.297152] rwnx_plat_userconfig_parsing, lvl_11b_11ag_24m_2g4 = 16
+[   33.297165] rwnx_plat_userconfig_parsing, lvl_11b_11ag_36m_2g4 = 16
+[   33.297179] rwnx_plat_userconfig_parsing, lvl_11b_11ag_48m_2g4 = 15
+[   33.297193] rwnx_plat_userconfig_parsing, lvl_11b_11ag_54m_2g4 = 15
+[   33.297207] rwnx_plat_userconfig_parsing, lvl_11n_11ac_mcs0_2g4 = 18
+[   33.297222] rwnx_plat_userconfig_parsing, lvl_11n_11ac_mcs1_2g4 = 18
+[   33.297237] rwnx_plat_userconfig_parsing, lvl_11n_11ac_mcs2_2g4 = 18
+[   33.297252] rwnx_plat_userconfig_parsing, lvl_11n_11ac_mcs3_2g4 = 18
+[   33.297269] rwnx_plat_userconfig_parsing, lvl_11n_11ac_mcs4_2g4 = 16
+[   33.297286] rwnx_plat_userconfig_parsing, lvl_11n_11ac_mcs5_2g4 = 16
+[   33.297303] rwnx_plat_userconfig_parsing, lvl_11n_11ac_mcs6_2g4 = 15
+[   33.297321] rwnx_plat_userconfig_parsing, lvl_11n_11ac_mcs7_2g4 = 15
+[   33.297339] rwnx_plat_userconfig_parsing, lvl_11n_11ac_mcs8_2g4 = 14
+[   33.297358] rwnx_plat_userconfig_parsing, lvl_11n_11ac_mcs9_2g4 = 14
+[   33.297376] rwnx_plat_userconfig_parsing, lvl_11ax_mcs0_2g4 = 18
+[   33.297395] rwnx_plat_userconfig_parsing, lvl_11ax_mcs1_2g4 = 18
+[   33.297413] rwnx_plat_userconfig_parsing, lvl_11ax_mcs2_2g4 = 18
+[   33.297433] rwnx_plat_userconfig_parsing, lvl_11ax_mcs3_2g4 = 18
+[   33.297454] rwnx_plat_userconfig_parsing, lvl_11ax_mcs4_2g4 = 16
+[   33.297475] rwnx_plat_userconfig_parsing, lvl_11ax_mcs5_2g4 = 16
+[   33.297496] rwnx_plat_userconfig_parsing, lvl_11ax_mcs6_2g4 = 15
+[   33.297518] rwnx_plat_userconfig_parsing, lvl_11ax_mcs7_2g4 = 15
+[   33.297542] rwnx_plat_userconfig_parsing, lvl_11ax_mcs8_2g4 = 14
+[   33.297570] rwnx_plat_userconfig_parsing, lvl_11ax_mcs9_2g4 = 14
+[   33.297597] rwnx_plat_userconfig_parsing, lvl_11ax_mcs10_2g4 = 13
+[   33.297623] rwnx_plat_userconfig_parsing, lvl_11ax_mcs11_2g4 = 13
+[   33.297668] rwnx_plat_userconfig_parsing, lvl_11a_6m_5g = 18
+[   33.297710] rwnx_plat_userconfig_parsing, lvl_11a_9m_5g = 18
+[   33.297758] rwnx_plat_userconfig_parsing, lvl_11a_12m_5g = 18
+[   33.297803] rwnx_plat_userconfig_parsing, lvl_11a_18m_5g = 18
+[   33.297851] rwnx_plat_userconfig_parsing, lvl_11a_24m_5g = 16
+[   33.297900] rwnx_plat_userconfig_parsing, lvl_11a_36m_5g = 16
+[   33.297951] rwnx_plat_userconfig_parsing, lvl_11a_48m_5g = 15
+[   33.298001] rwnx_plat_userconfig_parsing, lvl_11a_54m_5g = 15
+[   33.298055] rwnx_plat_userconfig_parsing, lvl_11n_11ac_mcs0_5g = 18
+[   33.298109] rwnx_plat_userconfig_parsing, lvl_11n_11ac_mcs1_5g = 18
+[   33.298157] rwnx_plat_userconfig_parsing, lvl_11n_11ac_mcs2_5g = 18
+[   33.298207] rwnx_plat_userconfig_parsing, lvl_11n_11ac_mcs3_5g = 18
+[   33.298256] rwnx_plat_userconfig_parsing, lvl_11n_11ac_mcs4_5g = 16
+[   33.298306] rwnx_plat_userconfig_parsing, lvl_11n_11ac_mcs5_5g = 16
+[   33.298357] rwnx_plat_userconfig_parsing, lvl_11n_11ac_mcs6_5g = 15
+[   33.298408] rwnx_plat_userconfig_parsing, lvl_11n_11ac_mcs7_5g = 15
+[   33.298469] rwnx_plat_userconfig_parsing, lvl_11n_11ac_mcs8_5g = 14
+[   33.298531] rwnx_plat_userconfig_parsing, lvl_11n_11ac_mcs9_5g = 14
+[   33.298590] rwnx_plat_userconfig_parsing, lvl_11ax_mcs0_5g = 18
+[   33.298647] rwnx_plat_userconfig_parsing, lvl_11ax_mcs1_5g = 18
+[   33.298699] rwnx_plat_userconfig_parsing, lvl_11ax_mcs2_5g = 18
+[   33.298750] rwnx_plat_userconfig_parsing, lvl_11ax_mcs3_5g = 18
+[   33.298802] rwnx_plat_userconfig_parsing, lvl_11ax_mcs4_5g = 16
+[   33.298854] rwnx_plat_userconfig_parsing, lvl_11ax_mcs5_5g = 16
+[   33.298907] rwnx_plat_userconfig_parsing, lvl_11ax_mcs6_5g = 14
+[   33.298960] rwnx_plat_userconfig_parsing, lvl_11ax_mcs7_5g = 14
+[   33.299013] rwnx_plat_userconfig_parsing, lvl_11ax_mcs8_5g = 13
+[   33.299067] rwnx_plat_userconfig_parsing, lvl_11ax_mcs9_5g = 13
+[   33.299126] rwnx_plat_userconfig_parsing, lvl_11ax_mcs10_5g = 12
+[   33.299192] rwnx_plat_userconfig_parsing, lvl_11ax_mcs11_5g = 12
+[   33.299554] rwnx_plat_userconfig_parsing, ofst2x_enable = 1
+[   33.299617] rwnx_plat_userconfig_parsing, ofst_2g4_11b_chan_1_4 = 1
+[   33.299679] rwnx_plat_userconfig_parsing, ofst_2g4_11b_chan_5_9 = 0
+[   33.299742] rwnx_plat_userconfig_parsing, ofst_2g4_11b_chan_10_13 = 3
+[   33.299806] rwnx_plat_userconfig_parsing, ofst_2g4_ofdm_highrate_chan_1_4 = -2
+[   33.299870] rwnx_plat_userconfig_parsing, ofst_2g4_ofdm_highrate_chan_5_9 = 0
+[   33.299938] rwnx_plat_userconfig_parsing, ofst_2g4_ofdm_highrate_chan_10_13 = 1
+[   33.300007] rwnx_plat_userconfig_parsing, ofst_2g4_ofdm_lowrate_chan_1_4 = -2
+[   33.300073] rwnx_plat_userconfig_parsing, ofst_2g4_ofdm_lowrate_chan_5_9 = 0
+[   33.300141] rwnx_plat_userconfig_parsing, ofst_2g4_ofdm_lowrate_chan_10_13 = 1
+[   33.300208] rwnx_plat_userconfig_parsing, ofst_5g_ofdm_lowrate_chan_42 = 2
+[   33.300275] rwnx_plat_userconfig_parsing, ofst_5g_ofdm_lowrate_chan_58 = 2
+[   33.300343] rwnx_plat_userconfig_parsing, ofst_5g_ofdm_lowrate_chan_106 = 2
+[   33.300412] rwnx_plat_userconfig_parsing, ofst_5g_ofdm_lowrate_chan_122 = 2
+[   33.300480] rwnx_plat_userconfig_parsing, ofst_5g_ofdm_lowrate_chan_138 = 0
+[   33.300612] rwnx_plat_userconfig_parsing, ofst_5g_ofdm_lowrate_chan_155 = -3
+[   33.300685] rwnx_plat_userconfig_parsing, ofst_5g_ofdm_highrate_chan_42 = 2
+[   33.300756] rwnx_plat_userconfig_parsing, ofst_5g_ofdm_highrate_chan_58 = 2
+[   33.300828] rwnx_plat_userconfig_parsing, ofst_5g_ofdm_highrate_chan_106 = 2
+[   33.300900] rwnx_plat_userconfig_parsing, ofst_5g_ofdm_highrate_chan_122 = 2
+[   33.300973] rwnx_plat_userconfig_parsing, ofst_5g_ofdm_highrate_chan_138 = 0
+[   33.301046] rwnx_plat_userconfig_parsing, ofst_5g_ofdm_highrate_chan_155 = -3
+[   33.301119] rwnx_plat_userconfig_parsing, ofst_5g_ofdm_midrate_chan_42 = 2
+[   33.301192] rwnx_plat_userconfig_parsing, ofst_5g_ofdm_midrate_chan_58 = 2
+[   33.301268] rwnx_plat_userconfig_parsing, ofst_5g_ofdm_midrate_chan_106 = 2
+[   33.301344] rwnx_plat_userconfig_parsing, ofst_5g_ofdm_midrate_chan_122 = 2
+[   33.301429] rwnx_plat_userconfig_parsing, ofst_5g_ofdm_midrate_chan_138 = 0
+[   33.301516] rwnx_plat_userconfig_parsing, ofst_5g_ofdm_midrate_chan_155 = -3
+[   33.301669] rwnx_plat_userconfig_parsing, xtal_enable = 0
+[   33.301749] rwnx_plat_userconfig_parsing, xtal_cap = 24
+[   33.301832] rwnx_plat_userconfig_parsing, xtal_cap_fine = 31
+[   33.301876] >>> rwnx_send_txpwr_lvl_v3_req()
+[   33.302284] >>> rwnx_send_txpwr_lvl_adj_req()
+[   33.302299] >>> rwnx_msg_free()
+[   33.302303] >>> rwnx_send_txpwr_ofst2x_req()
+[   33.302548] >>> rwnx_send_rf_calib_req()
+[   33.320562] aicbsp: err:<aicwf_sdio_bus_pwrctl,1256>: bus down
+[   34.076972] get macaddr: 84:e0:f5:09:16:36
+[   34.077019] >>> rwnx_send_reset()
+[   34.077941] >>> rwnx_send_version_req()
+[   34.078163] >>> rwnx_set_vers()
+[   34.078187] >>> rwnx_send_me_config_req()
+[   34.078198] ieee80211 phy0: HT supp 1, VHT supp 1, HE supp 1
+[   34.079702] >>> rwnx_send_me_chan_config_req()
+[   34.083964] >>> rwnx_send_me_chan_config_req()
+[   34.084688] >>> rwnx_dbgfs_register()
+[   34.085016] rwnx_interface_add: wlan%d, 2, 10
+[   34.085160] interface add:84 e0 f5 9 16 36
+[   34.101624] healthd: battery l=100 v=4152 t=29.3 h=2 st=3 fc=5631000 chg=
+[   34.123285] healthd: battery l=100 v=4152 t=29.3 h=2 st=3 fc=5631000 chg=
+[   34.142899] healthd: battery l=100 v=4152 t=29.3 h=2 st=3 fc=5631000 chg=
+[   34.170162] healthd: battery l=100 v=4152 t=29.3 h=2 st=3 fc=5631000 chg=
+[   34.177554] ieee80211 phy0: New interface create wlan0
+[   34.178948] sunxi:sound-mach:[ERR]: 433 simple_parse_of(): simple_dai_link_of failed
+[   34.191711] healthd: battery l=100 v=4152 t=29.3 h=2 st=3 fc=5631000 chg=
+[   34.212090] healthd: battery l=100 v=4134 t=29.3 h=2 st=3 fc=5631000 chg=
+[   34.220029] >>> rwnx_open()
+[   34.220061] >>> rwnx_send_start()
+[   34.222206] >>> rwnx_send_coex_req()
+[   34.222495] rwnx_open rwnx_vif->drv_flags:4
+[   34.222513] >>> rwnx_send_add_if()
+[   34.236244] healthd: battery l=100 v=4134 t=29.4 h=2 st=3 fc=5631000 chg=
+[   34.237312] init: Unable to set property 'vendor.wlan.firmware.version' from uid:1010 gid:1010 pid:1393: SELinux permission check failed
+[   34.237665] type=1107 audit(1788103612.984:58): uid=0 auid=4294967295 ses=4294967295 subj=u:r:init:s0 msg='avc:  denied  { set } for property=vendor.wlan.firmware.version pid=1393 uid=1010 gid=1010 scontext=u:r:hal_wifi_default:s0 tcontext=u:object_r:vendor_default_prop:s0 tclass=property_service permissive=0'
+[   34.238632] init: Unable to set property 'vendor.wlan.driver.version' from uid:1010 gid:1010 pid:1393: SELinux permission check failed
+[   34.238737] type=1107 audit(1788103612.984:59): uid=0 auid=4294967295 ses=4294967295 subj=u:r:init:s0 msg='avc:  denied  { set } for property=vendor.wlan.driver.version pid=1393 uid=1010 gid=1010 scontext=u:r:hal_wifi_default:s0 tcontext=u:object_r:vendor_default_prop:s0 tclass=property_service permissive=0'
+[   34.259013] healthd: battery l=100 v=4134 t=29.4 h=2 st=3 fc=5631000 chg=
+[   34.288773] healthd: battery l=100 v=4134 t=29.4 h=2 st=3 fc=5631000 chg=
+[   34.307329] healthd: battery l=100 v=4134 t=29.4 h=2 st=3 fc=5631000 chg=
+[   34.347873] servicemanager: Found android.hardware.wifi.supplicant.ISupplicant/default in device VINTF manifest.
+[   34.348726] servicemanager: Found android.hardware.wifi.supplicant.ISupplicant/default in device VINTF manifest.
+[   34.351482] servicemanager: Since 'android.hardware.wifi.supplicant.ISupplicant/default' could not be found (requested by debug pid 1177), trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
+[   34.366925] init: starting service 'wpa_supplicant'...
+[   34.369815] init: Created socket '/dev/socket/wpa_wlan0', mode 660, user 1010, group 1010
+[   34.385607] init: ... started service 'wpa_supplicant' has pid 1460
+[   34.519697] capability: warning: `wpa_supplicant' uses 32-bit capabilities (legacy support in use)
+[   34.562273] servicemanager: Found android.hardware.wifi.supplicant.ISupplicant/default in device VINTF manifest.
+[   34.563548] BpBinder: onLastStrongRef automatically unlinking death recipients: 
+[   34.711757] rwnx_virtual_interface_add: 10, p2p-dev-wlan0
+[   34.711800] rwnx_virtual_interface_add, ifname=p2p-dev-wlan0, wdev=000000000f5e675a, vif_idx=1
+[   34.711813] p2p dev addr=84 e0 f5 9 16 37
+[   34.716008] P2P interface started
+[   34.794918] IOCTL PRIVATE
+[   34.794964] android_priv_cmd: Android private cmd "COUNTRY CN" on wlan0
+[   34.794992] wrong cmd:(null) in handle_private_cmd
+[   34.813740] IOCTL PRIVATE
+[   34.813792] android_priv_cmd: Android private cmd "SETSUSPENDMODE 1" on wlan0
+[   34.813820] >>> rwnx_send_me_set_lp_level()
+[   34.813824] rwnx_send_me_set_lp_level 1 0 
+[   34.815629] set suspend mode 1
+[   35.475245] servicemanager: Could not find android.hardware.input.processor.IInputProcessor/default in the VINTF manifest. No alternative instances declared in VINTF.
+[   35.574241] servicemanager: Notifying apexservice they don't (previously: do) have clients when we now have no record of a client
+[   35.574571] AidlLazyServiceRegistrar: Process has 0 (of 1 available) client(s) in use after notification apexservice has clients: 0
+[   35.574601] AidlLazyServiceRegistrar: Shutdown prevented by forcePersist override flag.
+[   36.247324] servicemanager: Could not find android.hardware.secure_element.ISecureElement/eSE1 in the VINTF manifest. No alternative instances declared in VINTF.
+[   36.264388] servicemanager: Could not find android.hardware.secure_element.ISecureElement/SIM1 in the VINTF manifest. No alternative instances declared in VINTF.
+[   36.451567] type=1400 audit(1788103615.196:60): avc:  granted  { read } for  comm="rkstack.process" name="psched" dev="proc" ino=4026531986 scontext=u:r:network_stack:s0 tcontext=u:object_r:proc_net:s0 tclass=file
+[   36.451828] type=1400 audit(1788103615.196:61): avc:  granted  { read open } for  comm="rkstack.process" path="/proc/1562/net/psched" dev="proc" ino=4026531986 scontext=u:r:network_stack:s0 tcontext=u:object_r:proc_net:s0 tclass=file
+[   36.451974] type=1400 audit(1788103615.196:62): avc:  granted  { getattr } for  comm="rkstack.process" path="/proc/1562/net/psched" dev="proc" ino=4026531986 scontext=u:r:network_stack:s0 tcontext=u:object_r:proc_net:s0 tclass=file
+[   36.711295] servicemanager: Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+[   37.506108] IOCTL PRIVATE
+[   37.506147] android_priv_cmd: Android private cmd "BTCOEXSCAN-STOP" on wlan0
+[   37.506179] wrong cmd:(null) in handle_private_cmd
+[   37.506731] IOCTL PRIVATE
+[   37.506761] android_priv_cmd: Android private cmd "RXFILTER-STOP" on wlan0
+[   37.506777] wrong cmd:(null) in handle_private_cmd
+[   37.507175] IOCTL PRIVATE
+[   37.507200] android_priv_cmd: Android private cmd "RXFILTER-ADD 2" on wlan0
+[   37.507219] wrong cmd:(null) in handle_private_cmd
+[   37.507563] IOCTL PRIVATE
+[   37.507580] android_priv_cmd: Android private cmd "RXFILTER-START" on wlan0
+[   37.507593] wrong cmd:(null) in handle_private_cmd
+[   37.507785] IOCTL PRIVATE
+[   37.507795] android_priv_cmd: Android private cmd "RXFILTER-STOP" on wlan0
+[   37.507806] wrong cmd:(null) in handle_private_cmd
+[   37.508005] IOCTL PRIVATE
+[   37.508016] android_priv_cmd: Android private cmd "RXFILTER-ADD 3" on wlan0
+[   37.508025] wrong cmd:(null) in handle_private_cmd
+[   37.508392] IOCTL PRIVATE
+[   37.508409] android_priv_cmd: Android private cmd "RXFILTER-START" on wlan0
+[   37.508419] wrong cmd:(null) in handle_private_cmd
+[   37.508848] IOCTL PRIVATE
+[   37.508862] android_priv_cmd: Android private cmd "SETSUSPENDMODE 1" on wlan0
+[   37.508872] >>> rwnx_send_me_set_lp_level()
+[   37.508876] rwnx_send_me_set_lp_level 1 0 
+[   37.510587] set suspend mode 1
+[   37.521797] IOCTL PRIVATE
+[   37.521849] android_priv_cmd: Android private cmd "SETSUSPENDMODE 0" on wlan0
+[   37.521878] >>> rwnx_send_me_set_lp_level()
+[   37.521880] rwnx_send_me_set_lp_level 0 1 
+[   37.522215] set suspend mode 0
+[   38.892350] init: Sending signal 9 to service 'idmap2d' (pid 1014) process group...
+[   38.901895] libprocessgroup: Removed cgroup /sys/fs/cgroup/uid_1000/pid_1014
+[   38.902891] init: Control message: Processed ctl.stop for 'idmap2d' from pid: 1177 (system_server)
+[   38.903706] init: Service 'idmap2d' (pid 1014) received signal 9
+[   38.903758] init: Sending signal 9 to service 'idmap2d' (pid 1014) process group...
+[   38.904008] libprocessgroup: Failed to write 1 to /sys/fs/cgroup/uid_1000/pid_1014/cgroup.kill: No such file or directory
+[   38.904064] libprocessgroup: Failed to open /sys/fs/cgroup/uid_1000/pid_1014/cgroup.procs: No such file or directory
+[   39.860181] sc7a20_delay_store: sc7a20 delay 66
+[   39.860802] sc7a20_enable_store: buf=1
+[   39.860826] enable_sensor: sc7a20_CTRL_PWRON
+[   39.861820] enable_sensor: sc7a20 delay 66
+[   40.050677] binder: undelivered transaction 32165, process died.
+[   40.052109] init: Service 'bootanim' (pid 1153) exited with status 0 oneshot service took 17.073999 seconds in background
+[   40.052163] init: Sending signal 9 to service 'bootanim' (pid 1153) process group...
+[   40.052997] libprocessgroup: Removed cgroup /sys/fs/cgroup/uid_1003/pid_1153
+[   40.180233] servicemanager: Found android.hardware.power.IPower/default in device VINTF manifest.
+[   40.186496] >>> rwnx_cfg80211_scan()
+[   40.186522] >>> rwnx_send_scanu_req()
+[   40.209988] servicemanager: Notifying apexservice they do (previously: don't) have clients when service is guaranteed to be in use
+[   40.210240] AidlLazyServiceRegistrar: Process has 1 (of 1 available) client(s) in use after notification apexservice has clients: 1
+[   40.210260] AidlLazyServiceRegistrar: Shutdown prevented by forcePersist override flag.
+[   40.210857] apexd: markBootCompleted() received by ApexService
+[   40.220127] IOCTL PRIVATE
+[   40.220164] android_priv_cmd: Android private cmd "SETSUSPENDMODE 0" on wlan0
+[   40.220194] >>> rwnx_send_me_set_lp_level()
+[   40.220198] rwnx_send_me_set_lp_level 0 1 
+[   40.220704] set suspend mode 0
+[   41.624262] servicemanager: Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+[   41.637702] servicemanager: Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+[   41.646121] g2d version: 10114114 chip version: 00000000
+[   41.699243] >>> rwnx_rx_scanu_start_cfm()
+[   42.004095] >>> rwnx_cfg80211_connect()
+[   42.004138] rwnx_set_conn_state drv_conn_state:000000001207d8f1 RWNX_DRV_STATUS_DISCONNECTED --> RWNX_DRV_STATUS_CONNECTING 
+[   42.004152] >>> rwnx_send_sm_connect_req()
+[   42.004161] rwnx_send_sm_connect_req drv_vif_index:0 connect to Bbox-5FD3B003(13) channel:5200 auth_type:0
+[   42.160839] init (189): drop_caches: 3
+[   42.164246] type=1400 audit(1788103620.908:63): avc:  denied  { write } for  comm="init" name="dirty_expire_centisecs" dev="proc" ino=50573 scontext=u:r:vendor_init:s0 tcontext=u:object_r:proc_dirty:s0 tclass=file permissive=0
+[   42.169601] type=1400 audit(1788103620.912:64): avc:  denied  { write } for  comm="init" name="dirty_background_ratio" dev="proc" ino=50574 scontext=u:r:vendor_init:s0 tcontext=u:object_r:proc_dirty:s0 tclass=file permissive=0
+[   42.267698] >>> rwnx_rx_sm_connect_ind()
+[   42.267779] rwnx_rx_sm_connect_ind ind->roamed:0 ind->status_code:0 rwnx_vif->drv_conn_state:2
+[   42.267823] rwnx_set_conn_state drv_conn_state:000000001207d8f1 RWNX_DRV_STATUS_CONNECTING --> RWNX_DRV_STATUS_CONNECTED 
+[   42.267835] rwnx_rx_sm_connect_ind cfg80211_connect_result pass, rwnx_vif->drv_conn_state:3
+[   42.278899] healthd: battery l=100 v=4075 t=29.8 h=2 st=3 fc=5631000 chg=
+[   42.281897] >>> rwnx_send_me_chan_config_req()
+[   42.293003] need cfm ethertype:    8e88,user_idx=1, skb=000000006cc6f6c3
+[   42.293725] sdio_host_tx_cfm_handler:used_idx=0, 0x000000003c9d56c5, status=9
+[   42.301125] healthd: battery l=100 v=4075 t=30.0 h=2 st=3 fc=5631000 chg=
+[   42.301331] need cfm ethertype:    8e88,user_idx=2, skb=0000000096bb5348
+[   42.302167] >>> rwnx_cfg80211_add_key()
+[   42.302203] >>> rwnx_send_key_add()
+[   42.302208] rwnx_send_key_add: sta_idx:0 key_idx:0 inst_nbr:0 cipher:2 key_len:16
+[   42.303987] sdio_host_tx_cfm_handler:used_idx=1, 0x000000003c9d56c5, status=9
+[   42.305006] >>> rwnx_cfg80211_add_key()
+[   42.305032] >>> rwnx_send_key_add()
+[   42.305037] rwnx_send_key_add: sta_idx:255 key_idx:1 inst_nbr:0 cipher:2 key_len:16
+[   42.305904] >>> rwnx_cfg80211_add_key()
+[   42.305927] >>> rwnx_send_key_add()
+[   42.305934] rwnx_send_key_add: sta_idx:255 key_idx:4 inst_nbr:0 cipher:5 key_len:16
+[   42.309058] >>> rwnx_send_me_set_control_port_req()
+[   42.332319] loop43: detected capacity change from 0 to 8388608
+[   42.334725] healthd: battery l=100 v=4075 t=30.0 h=2 st=3 fc=5631000 chg=
+[   42.356819] healthd: battery l=100 v=4075 t=30.0 h=2 st=3 fc=5631000 chg=
+[   42.367760] aicwf_vendor_apf_subcmd_get_capabilities
+[   42.378590] healthd: battery l=100 v=4075 t=30.0 h=2 st=3 fc=5631000 chg=
+[   42.391697] IOCTL PRIVATE
+[   42.391933] android_priv_cmd: Android private cmd "BTCOEXMODE 2" on wlan0
+[   42.391962] wrong cmd:(null) in handle_private_cmd
+[   42.432841] aicwf_vendor_apf_set_filter
+[   42.435308] aicwf_vendor_apf_set_filter
+[   42.573380] zram: setup backing device /dev/block/loop43
+[   42.584121] zram0: detected capacity change from 0 to 5818560
+[   42.694449] IOCTL PRIVATE
+[   42.694494] android_priv_cmd: Android private cmd "BTCOEXMODE 1" on wlan0
+[   42.694528] wrong cmd:(null) in handle_private_cmd
+[   42.695162] IOCTL PRIVATE
+[   42.695197] android_priv_cmd: Android private cmd "SETSUSPENDMODE 0" on wlan0
+[   42.695224] >>> rwnx_send_me_set_lp_level()
+[   42.695228] rwnx_send_me_set_lp_level 0 1 
+[   42.695710] set suspend mode 0
+[   42.710653] mkswap: Swapspace size: 2909276k, UUID=8ddfdca8-5d6b-4947-befd-c60110f443ed
+[   42.715289] Adding 2909276k swap on /dev/block/zram0.  Priority:-2 extents:1 across:2909276k SS
+[   43.500380] type=1400 audit(1788103622.244:65): avc:  denied  { fsetid } for  comm="chmod" capability=4  scontext=u:r:phhsu_daemon:s0 tcontext=u:r:phhsu_daemon:s0 tclass=capability permissive=1
+[   43.565148] aicwf_vendor_apf_set_filter
+[   43.574832] BPF:[132021] Invalid name_offset:2388998
+[   43.594470] healthd: battery l=100 v=4094 t=30.1 h=2 st=3 fc=5631000 chg=
+[   43.601633] BPF:[132022] Invalid name_offset:2388998
+[   43.607427] sunxi:sound-mach:[ERR]: 433 simple_parse_of(): simple_dai_link_of failed
+[   43.616356] healthd: battery l=100 v=4094 t=30.1 h=2 st=3 fc=5631000 chg=
+[   43.643830] healthd: battery l=100 v=4094 t=30.1 h=2 st=3 fc=5631000 chg=
+[   43.675112] healthd: battery l=100 v=4094 t=30.1 h=2 st=3 fc=5631000 chg=
+[   43.693862] healthd: battery l=100 v=4094 t=30.1 h=2 st=3 fc=5631000 chg=
+[   43.718172] reord_init_sta:84:e0:f5:09:16:36
+[   43.977630] flush:tid=4
+[   43.995133] init: Service 'dmesgd' (pid 2051) exited with status 0 oneshot service took 0.335000 seconds in background
+[   43.995242] init: Sending signal 9 to service 'dmesgd' (pid 2051) process group...
+[   43.996461] libprocessgroup: Removed cgroup /sys/fs/cgroup/uid_1086/pid_2051
+[   44.208918] init: Control message: Could not find 'storageproxyd' for ctl.stop from pid: 2088 (setprop ctl.stop storageproxyd)
+[   44.234333] apexd: Deleting unused dm device com.android.apex.cts.shim
+[   44.266004] apexd: Deleting unused dm device com.android.btservices
+[   44.297379] apexd: Deleting unused dm device com.android.compos
+[   44.329251] apexd: Deleting unused dm device com.android.devicelock
+[   44.357119] apexd: Deleting unused dm device com.android.healthfitness
+[   44.396052] apexd: Deleting unused dm device com.android.i18n
+[   44.441254] apexd: Deleting unused dm device com.android.os.statsd
+[   45.574291] servicemanager: Notifying apexservice they don't (previously: do) have clients when we now have no record of a client
+[   45.574844] AidlLazyServiceRegistrar: Process has 0 (of 1 available) client(s) in use after notification apexservice has clients: 0
+[   45.574884] AidlLazyServiceRegistrar: Trying to shut down the service. No clients in use for any service in process.
+[   45.575404] servicemanager: Unregistering apexservice
+[   45.575461] BpBinder: onLastStrongRef automatically unlinking death recipients: 
+[   45.575703] AidlLazyServiceRegistrar: Unregistered all clients and exiting
+[   45.592898] printk: apexd: 140 output lines suppressed due to ratelimiting
+[   45.593644] init: Service 'apexd' (pid 663) exited with status 0 oneshot service took 31.785000 seconds in background
+[   45.593694] init: Sending signal 9 to service 'apexd' (pid 663) process group...
+[   45.594462] libprocessgroup: Removed cgroup /sys/fs/cgroup/uid_0/pid_663
+[   45.616097] flush:tid=7
+[   45.636359] paired=fac04, should=fac04
+[   45.636396] >>> rwnx_send_arpoffload_en_req()
+[   45.636458] >>> cmd_mgr_task_process()
+[   45.651996] IOCTL PRIVATE
+[   45.652038] android_priv_cmd: Android private cmd "BTCOEXMODE 2" on wlan0
+[   45.652064] wrong cmd:(null) in handle_private_cmd
+[   45.683665] aicwf_vendor_apf_set_filter
+[   45.686626] >>> rwnx_rx_me_tx_credits_update_ind()
+[   47.558027] type=1400 audit(1788103626.304:66): avc:  denied  { dac_read_search } for  comm="tee_supplicant" capability=2  scontext=u:r:tee:s0 tcontext=u:r:tee:s0 tclass=capability permissive=0
+[   47.565181] type=1400 audit(1788103626.312:67): avc:  denied  { dac_read_search } for  comm="tee_supplicant" capability=2  scontext=u:r:tee:s0 tcontext=u:r:tee:s0 tclass=capability permissive=0
+[   47.572039] type=1400 audit(1788103626.316:68): avc:  denied  { dac_read_search } for  comm="tee_supplicant" capability=2  scontext=u:r:tee:s0 tcontext=u:r:tee:s0 tclass=capability permissive=0
+[   47.578559] type=1400 audit(1788103626.324:69): avc:  denied  { dac_read_search } for  comm="tee_supplicant" capability=2  scontext=u:r:tee:s0 tcontext=u:r:tee:s0 tclass=capability permissive=0
+[   47.586931] type=1400 audit(1788103626.332:70): avc:  denied  { dac_read_search } for  comm="tee_supplicant" capability=2  scontext=u:r:tee:s0 tcontext=u:r:tee:s0 tclass=capability permissive=0
+[   47.595167] type=1400 audit(1788103626.340:71): avc:  denied  { dac_read_search } for  comm="tee_supplicant" capability=2  scontext=u:r:tee:s0 tcontext=u:r:tee:s0 tclass=capability permissive=0
+[   47.601565] type=1400 audit(1788103626.348:72): avc:  denied  { dac_read_search } for  comm="tee_supplicant" capability=2  scontext=u:r:tee:s0 tcontext=u:r:tee:s0 tclass=capability permissive=0
+[   47.654062] type=1400 audit(1788103626.400:73): avc:  denied  { dac_read_search } for  comm="tee_supplicant" capability=2  scontext=u:r:tee:s0 tcontext=u:r:tee:s0 tclass=capability permissive=0
+[   47.660572] audit: audit_lost=1 audit_rate_limit=5 audit_backlog_limit=64
+[   47.660591] audit: rate limit exceeded
+[   47.747944] selinux: SELinux: Skipping restorecon on directory(/data/system_ce/0)
+[   47.752982] selinux: SELinux: Skipping restorecon on directory(/data/vendor_ce/0)
+[   47.758055] selinux: SELinux: Skipping restorecon on directory(/data/misc_ce/0)
+[   48.997778] servicemanager: Since 'apexservice' could not be found (requested by debug pid 1177), trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
+[   49.000786] init: starting service 'apexd'...
+[   49.010803] init: ... started service 'apexd' has pid 2143
+[   49.010930] init: Control message: Processed ctl.interface_start for 'aidl/apexservice' from pid: 257 (/system/bin/servicemanager)
+[   49.040993] healthd: battery l=100 v=4108 t=30.3 h=2 st=3 fc=5631000 chg=
+[   49.099888] apexd: Started. subcommand = (null)
+[   49.494439] type=1400 audit(1788103628.240:79): avc:  denied  { dac_read_search } for  comm="tee_supplicant" capability=2  scontext=u:r:tee:s0 tcontext=u:r:tee:s0 tclass=capability permissive=0
+[   49.500702] type=1400 audit(1788103628.244:80): avc:  denied  { dac_read_search } for  comm="tee_supplicant" capability=2  scontext=u:r:tee:s0 tcontext=u:r:tee:s0 tclass=capability permissive=0
+[   49.522145] audit: audit_lost=6 audit_rate_limit=5 audit_backlog_limit=64
+[   49.522167] audit: rate limit exceeded
+[   50.001957] servicemanager: Since 'apexservice' could not be found (requested by debug pid 1177), trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
+[   50.004840] init: service 'apexd' requested start, but it is already running (flags: 134)
+[   50.004917] init: Control message: Processed ctl.interface_start for 'aidl/apexservice' from pid: 257 (/system/bin/servicemanager)
+[   50.295618] servicemanager: Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+[   50.304428] servicemanager: Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+[   50.443244] apexd: Scanning /system/apex for pre-installed ApexFiles
+[   50.444757] apexd: Found pre-installed APEX /system/apex/com.android.ondevicepersonalization.capex
+[   50.450931] apexd: Found pre-installed APEX /system/apex/com.android.ipsec.capex
+[   50.454130] apexd: Found pre-installed APEX /system/apex/com.android.adservices.capex
+[   50.458598] apexd: Found pre-installed APEX /system/apex/com.android.appsearch.capex
+[   50.462254] apexd: Found pre-installed APEX /system/apex/com.android.media.capex
+[   50.465441] apexd: Found pre-installed APEX /system/apex/com.android.devicelock.apex
+[   50.470306] apexd: Found pre-installed APEX /system/apex/com.android.tethering.capex
+[   50.473492] apexd: Found pre-installed APEX /system/apex/com.android.permission.capex
+[   50.653805] servicemanager: Notifying apexservice they do (previously: don't) have clients when service is guaranteed to be in use
+[   50.654379] BpBinder: onLastStrongRef automatically unlinking death recipients: 
+[   50.655633] servicemanager: Tried to unregister apexservice, but there are clients.
+[   52.514246] healthd: battery l=100 v=4078 t=30.8 h=2 st=3 fc=5631000 chg=
+[   52.532005] healthd: battery l=100 v=4078 t=30.8 h=2 st=3 fc=5631000 chg=
+[   53.212389] init: Sending signal 9 to service 'idmap2d' (pid 1807) process group...
+[   53.219255] libprocessgroup: Removed cgroup /sys/fs/cgroup/uid_1000/pid_1807
+[   53.220301] init: Control message: Processed ctl.stop for 'idmap2d' from pid: 1177 (system_server)
+[   53.221067] init: Service 'idmap2d' (pid 1807) received signal 9
+[   53.221129] init: Sending signal 9 to service 'idmap2d' (pid 1807) process group...
+[   54.317067] servicemanager: Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+[   54.331126] servicemanager: Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+[   55.574344] servicemanager: Notifying apexservice they don't (previously: do) have clients when we now have no record of a client
+[   55.574857] AidlLazyServiceRegistrar: Process has 0 (of 1 available) client(s) in use after notification apexservice has clients: 0
+[   55.574897] AidlLazyServiceRegistrar: Trying to shut down the service. No clients in use for any service in process.
+[   55.575416] servicemanager: Unregistering apexservice
+[   55.575476] BpBinder: onLastStrongRef automatically unlinking death recipients: 
+[   55.575632] AidlLazyServiceRegistrar: Unregistered all clients and exiting
+[   55.577528] apexd (2143) used greatest stack depth: 10464 bytes left
+[   55.580897] printk: binder:2143_2: 84 output lines suppressed due to ratelimiting
+[   55.581695] init: Service 'apexd' (pid 2143) exited with status 0 oneshot service took 6.576000 seconds in background
+[   55.581740] init: Sending signal 9 to service 'apexd' (pid 2143) process group...
+[   55.582378] libprocessgroup: Removed cgroup /sys/fs/cgroup/uid_0/pid_2143
+[   59.753400] flush:tid=5
+[   60.189614] >>> rwnx_cfg80211_scan()
+[   60.189648] >>> rwnx_send_scanu_req()
+[   60.413005] healthd: battery l=100 v=4099 t=31.2 h=2 st=3 fc=5631000 chg=
+[   60.431649] healthd: battery l=100 v=4099 t=31.1 h=2 st=3 fc=5631000 chg=
+[   60.449885] healthd: battery l=100 v=4099 t=31.1 h=2 st=3 fc=5631000 chg=
+[   60.475951] healthd: battery l=100 v=4099 t=31.1 h=2 st=3 fc=5631000 chg=
+[   60.490320] >>> rwnx_rx_scanu_start_cfm()
+[   60.505297] healthd: battery l=100 v=4099 t=31.1 h=2 st=3 fc=5631000 chg=
+[   60.534855] healthd: battery l=100 v=4099 t=31.1 h=2 st=3 fc=5631000 chg=
+[   60.564081] healthd: battery l=100 v=4099 t=31.1 h=2 st=3 fc=5631000 chg=
+[   60.585303] healthd: battery l=100 v=4099 t=31.1 h=2 st=3 fc=5631000 chg=
+[   60.939207] type=1400 audit(1788103639.680:85): avc:  denied  { read } for  comm="binder:2935_1" name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=332 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   60.941454] type=1400 audit(1788103639.680:86): avc:  denied  { read } for  comm="binder:2935_1" name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=79 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   60.957099] logd: start watching /data/system/packages.list ...
+[   60.960224] logd: ReadPackageList, total packages: 233
+[   61.146384] healthd: battery l=100 v=4099 t=31.1 h=2 st=3 fc=5631000 chg=
+[   61.695719] servicemanager: Found android.hardware.security.keymint.IRemotelyProvisionedComponent/default in device VINTF manifest.
+[   61.797134] servicemanager: Since 'android.hardware.drm.IDrmFactory/clearkey' could not be found (requested by debug pid 3121), trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
+[   61.808076] init: starting service 'vendor.drm-clearkey-service'...
+[   61.821169] init: ... started service 'vendor.drm-clearkey-service' has pid 3211
+[   61.821268] init: Control message: Processed ctl.interface_start for 'aidl/android.hardware.drm.IDrmFactory/clearkey' from pid: 257 (/system/bin/servicemanager)
+[   61.934539] servicemanager: Found android.hardware.drm.IDrmFactory/clearkey in device VINTF manifest.
+[   61.935645] BpBinder: onLastStrongRef automatically unlinking death recipients: 
+[   61.936131] servicemanager: Notifying android.hardware.drm.IDrmFactory/clearkey they do (previously: don't) have clients when service is guaranteed to be in use
+[   61.937155] servicemanager: Since 'android.hardware.drm.IDrmFactory/widevine' could not be found (requested by debug pid 3121), trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
+[   61.941675] init: starting service 'vendor.drm-widevine-hal'...
+[   61.952796] init: ... started service 'vendor.drm-widevine-hal' has pid 3220
+[   61.952903] init: Control message: Processed ctl.interface_start for 'aidl/android.hardware.drm.IDrmFactory/widevine' from pid: 257 (/system/bin/servicemanager)
+[   62.225092] servicemanager: Found android.hardware.drm.IDrmFactory/widevine in device VINTF manifest.
+[   62.226240] servicemanager: Notifying android.hardware.drm.IDrmFactory/widevine they do (previously: don't) have clients when service is guaranteed to be in use
+[   62.226821] BpBinder: onLastStrongRef automatically unlinking death recipients: 
+[   62.340896] type=1400 audit(1788103641.084:87): avc:  denied  { dac_read_search } for  comm="tee_supplicant" capability=2  scontext=u:r:tee:s0 tcontext=u:r:tee:s0 tclass=capability permissive=0
+[   62.345024] type=1400 audit(1788103641.088:88): avc:  denied  { dac_read_search } for  comm="tee_supplicant" capability=2  scontext=u:r:tee:s0 tcontext=u:r:tee:s0 tclass=capability permissive=0
+[   62.442089] type=1400 audit(1788103641.188:89): avc:  denied  { dac_read_search } for  comm="tee_supplicant" capability=2  scontext=u:r:tee:s0 tcontext=u:r:tee:s0 tclass=capability permissive=0
+[   62.447474] type=1400 audit(1788103641.192:90): avc:  denied  { dac_read_search } for  comm="tee_supplicant" capability=2  scontext=u:r:tee:s0 tcontext=u:r:tee:s0 tclass=capability permissive=0
+[   62.768162] healthd: battery l=100 v=4086 t=31.2 h=2 st=3 fc=5631000 chg=
+[   63.003459] servicemanager: Isolated app with UID 99000 requested 'network_management', but the service is not allowed for isolated apps.
+[   63.049060] binder: 2569:2588 ioctl c0306201 7b54224588 returned -14
+[   63.049445] binder: 2569:2595 ioctl c0306201 7b4ce93588 returned -14
+[   63.050670] binder: 2569:2589 ioctl c0306201 7b53126588 returned -14
+[   63.565862] binder: undelivered transaction 74309, process died.
+[   63.565912] binder: undelivered transaction 74311, process died.
+[   64.400995] type=1400 audit(1788103643.144:91): avc:  granted  { read } for  comm="NetworkMonitor/" name="psched" dev="proc" ino=4026531986 scontext=u:r:network_stack:s0 tcontext=u:object_r:proc_net:s0 tclass=file
+[   64.401288] type=1400 audit(1788103643.148:92): avc:  granted  { read open } for  comm="NetworkMonitor/" path="/proc/1562/net/psched" dev="proc" ino=4026531986 scontext=u:r:network_stack:s0 tcontext=u:object_r:proc_net:s0 tclass=file
+[   65.581744] init: Service 'vendor.drm-clearkey-service' (pid 3211) exited with status 0 oneshot service took 3.767000 seconds in background
+[   65.581815] init: Sending signal 9 to service 'vendor.drm-clearkey-service' (pid 3211) process group...
+[   65.582622] libprocessgroup: Removed cgroup /sys/fs/cgroup/uid_1013/pid_3211
+[   65.646838] android.hardwar (3220) used greatest stack depth: 9664 bytes left
+[   65.647284] init: Service 'vendor.drm-widevine-hal' (pid 3220) exited with status 0 oneshot service took 3.700000 seconds in background
+[   67.647230] healthd: battery l=100 v=4086 t=31.4 h=2 st=3 fc=5631000 chg=
+[   67.669087] healthd: battery l=100 v=4086 t=31.4 h=2 st=3 fc=5631000 chg=
+[   67.695883] healthd: battery l=100 v=4086 t=31.4 h=2 st=3 fc=5631000 chg=
+[   67.728474] healthd: battery l=100 v=4086 t=31.4 h=2 st=3 fc=5631000 chg=
+[   67.778502] healthd: battery l=100 v=4086 t=31.4 h=2 st=3 fc=5631000 chg=
+[   67.801853] healthd: battery l=100 v=4086 t=31.4 h=2 st=3 fc=5631000 chg=
+[   67.828376] healthd: battery l=100 v=4086 t=31.4 h=2 st=3 fc=5631000 chg=
+[   67.854289] healthd: battery l=100 v=4086 t=31.4 h=2 st=3 fc=5631000 chg=
+[   67.879914] healthd: battery l=100 v=4086 t=31.4 h=2 st=3 fc=5631000 chg=
+[   67.904628] healthd: battery l=100 v=4086 t=31.4 h=2 st=3 fc=5631000 chg=
+[   69.452265] init: starting service 'idmap2d'...
+[   69.493023] init: ... started service 'idmap2d' has pid 3621
+[   69.493089] init: Control message: Processed ctl.start for 'idmap2d' from pid: 1177 (system_server)
+[   69.821494] init: processing action (persist.sys.phh.xiaomi.dt2w=*) from (/system/etc/init/vndk.rc:46)
+[   69.822233] init: starting service 'exec 32 (/system/bin/phh-prop-handler.sh persist.sys.phh.xiaomi.dt2w)'...
+[   69.824382] SELinux: avc:  denied  { find } for pid=3557 uid=1000 name=vendor.xiaomi.hw.touchfeature.ITouchFeature/default scontext=u:r:system_app:s0 tcontext=u:object_r:default_android_service:s0 tclass=service_manager permissive=0
+[   69.830168] init: ... started service 'exec 32 (/system/bin/phh-prop-handler.sh persist.sys.phh.xiaomi.dt2w)' has pid 3649
+[   69.830298] init: SVC_EXEC service 'exec 32 (/system/bin/phh-prop-handler.sh persist.sys.phh.xiaomi.dt2w)' pid 3649 (uid 0 gid 0+0 context u:r:phhsu_daemon:s0) started; waiting...
+[   69.835506] SELinux: avc:  denied  { find } for pid=3557 uid=1000 name=vendor.mediatek.hardware.agolddaemon.IAgoldDaemon/default scontext=u:r:system_app:s0 tcontext=u:object_r:default_android_service:s0 tclass=service_manager permissive=0
+[   69.970561] SELinux: avc:  denied  { find } for pid=3557 uid=1000 name=vendor.mediatek.hardware.mtkradioex.ims.IMtkRadioExIms/imsrild1 scontext=u:r:system_app:s0 tcontext=u:object_r:default_android_service:s0 tclass=service_manager permissive=0
+[   69.972986] SELinux: avc:  denied  { find } for pid=3557 uid=1000 name=vendor.mediatek.hardware.mtkradioex.ims.IMtkRadioExIms/imsrild2 scontext=u:r:system_app:s0 tcontext=u:object_r:default_android_service:s0 tclass=service_manager permissive=0
+[   69.976366] SELinux: avc:  denied  { find } for pid=3557 uid=1000 name=vendor.mediatek.hardware.mtkradioex.ims.IMtkRadioExIms/imsrild3 scontext=u:r:system_app:s0 tcontext=u:object_r:default_android_service:s0 tclass=service_manager permissive=0
+[   69.977667] SELinux: avc:  denied  { find } for pid=3557 uid=1000 name=vendor.mediatek.hardware.mtkradioex.ims.IMtkRadioExIms/slot1 scontext=u:r:system_app:s0 tcontext=u:object_r:default_android_service:s0 tclass=service_manager permissive=0
+[   69.985196] SELinux: avc:  denied  { find } for pid=3557 uid=1000 name=vendor.mediatek.hardware.mtkradioex.ims.IMtkRadioExIms/slot2 scontext=u:r:system_app:s0 tcontext=u:object_r:default_android_service:s0 tclass=service_manager permissive=0
+[   69.994354] SELinux: avc:  denied  { find } for pid=3557 uid=1000 name=vendor.mediatek.hardware.mtkradioex.ims.IMtkRadioExIms/slot3 scontext=u:r:system_app:s0 tcontext=u:object_r:default_android_service:s0 tclass=service_manager permissive=0
+[   69.995071] SELinux: avc:  denied  { find } for pid=3557 uid=1000 name=vendor.mediatek.hardware.mtkradioex.ims.IMtkRadioExIms/imsSlot1 scontext=u:r:system_app:s0 tcontext=u:object_r:default_android_service:s0 tclass=service_manager permissive=0
+[   69.995695] SELinux: avc:  denied  { find } for pid=3557 uid=1000 name=vendor.mediatek.hardware.mtkradioex.ims.IMtkRadioExIms/imsSlot2 scontext=u:r:system_app:s0 tcontext=u:object_r:default_android_service:s0 tclass=service_manager permissive=0
+[   70.222469] type=1400 audit(1788103648.952:94): avc:  denied  { read } for  comm="binder:2935_2" name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=332 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   70.222705] type=1400 audit(1788103648.956:95): avc:  denied  { read } for  comm="binder:2935_2" name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=79 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   70.425480] init: Service 'exec 32 (/system/bin/phh-prop-handler.sh persist.sys.phh.xiaomi.dt2w)' (pid 3649) exited with status 1 waiting took 0.598000 seconds
+[   70.425552] init: Sending signal 9 to service 'exec 32 (/system/bin/phh-prop-handler.sh persist.sys.phh.xiaomi.dt2w)' (pid 3649) process group...
+[   70.426256] libprocessgroup: Removed cgroup /sys/fs/cgroup/uid_0/pid_3649
+[   72.650385] type=1400 audit(1788103651.396:96): avc:  denied  { read } for  comm="binder:2935_5" name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=332 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   72.650845] type=1400 audit(1788103651.396:97): avc:  denied  { read } for  comm="binder:2935_5" name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=79 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   72.712385] healthd: battery l=100 v=4083 t=31.4 h=2 st=3 fc=5631000 chg=
+[   72.938621] type=1400 audit(1788103651.684:98): avc:  denied  { read } for  comm="binder:2935_4" name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=332 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   72.941022] type=1400 audit(1788103651.684:99): avc:  denied  { read } for  comm="binder:2935_4" name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=79 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   72.988892] healthd: battery l=100 v=4083 t=31.4 h=2 st=3 fc=5631000 chg=
+[   73.006291] healthd: battery l=100 v=4083 t=31.4 h=2 st=3 fc=5631000 chg=
+[   73.023812] healthd: battery l=100 v=4083 t=31.4 h=2 st=3 fc=5631000 chg=
+[   77.113084] binder: 3019:3036 ioctl c0306201 7b4e126588 returned -14
+[   77.123299] binder: 3019:3033 ioctl c0306201 7b53224588 returned -14
+[   79.116653] healthd: battery l=100 v=4082 t=31.6 h=2 st=3 fc=5631000 chg=
+[   79.652044] init: Sending signal 9 to service 'idmap2d' (pid 3621) process group...
+[   79.658303] libprocessgroup: Removed cgroup /sys/fs/cgroup/uid_1000/pid_3621
+[   79.659258] init: Control message: Processed ctl.stop for 'idmap2d' from pid: 1177 (system_server)
+[   79.659893] init: Service 'idmap2d' (pid 3621) received signal 9
+[   79.659937] init: Sending signal 9 to service 'idmap2d' (pid 3621) process group...
+[   79.660125] libprocessgroup: Failed to write 1 to /sys/fs/cgroup/uid_1000/pid_3621/cgroup.kill: No such file or directory
+[   79.660171] libprocessgroup: Failed to open /sys/fs/cgroup/uid_1000/pid_3621/cgroup.procs: No such file or directory
+[   80.187641] >>> rwnx_cfg80211_scan()
+[   80.187867] >>> rwnx_send_scanu_req()
+[   80.488513] >>> rwnx_rx_scanu_start_cfm()
+[   81.128921] type=1400 audit(1788103659.872:100): avc:  denied  { read } for  comm="binder:2935_2" name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=332 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   81.132360] type=1400 audit(1788103659.876:101): avc:  denied  { read } for  comm="binder:2935_2" name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=79 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   81.348836] type=1400 audit(1788103660.088:102): avc:  granted  { execute } for  comm=42472054687265616420233131 path="/data/data/com.google.android.youtube/app_pccache2/5/FCBE832F3A8A89DC31C4B5CD1FC05CA53707B67E/oat/arm64/pcam.odex" dev="dm-43" ino=33301 scontext=u:r:untrusted_app:s0:c214,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c214,c256,c512,c768 tclass=file app=com.google.android.youtube
+[   81.507584] type=1400 audit(1788103660.252:103): avc:  granted  { execute } for  comm=42472054687265616420233131 path="/data/data/com.google.android.youtube/app_pccache2/5/FCBE832F3A8A89DC31C4B5CD1FC05CA53707B67E/pcam.jar" dev="dm-43" ino=31235 scontext=u:r:untrusted_app:s0:c214,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c214,c256,c512,c768 tclass=file app=com.google.android.youtube
+[   83.229825] healthd: battery l=100 v=4080 t=31.6 h=2 st=3 fc=5631000 chg=
+[   83.248256] healthd: battery l=100 v=4080 t=31.6 h=2 st=3 fc=5631000 chg=
+[   84.384890] init: Service 'phh_on_boot' (pid 2001) exited with status 0 oneshot service took 41.139000 seconds in background
+[   84.384955] init: Sending signal 9 to service 'phh_on_boot' (pid 2001) process group...
+[   84.385741] libprocessgroup: Removed cgroup /sys/fs/cgroup/uid_0/pid_2001
+[   84.662280] healthd: battery l=100 v=4092 t=31.7 h=2 st=3 fc=5631000 chg=
+[   86.004889] type=1400 audit(1788103664.748:104): avc:  denied  { read } for  comm="binder:2935_4" name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=332 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   86.005247] type=1400 audit(1788103664.748:105): avc:  denied  { read } for  comm="binder:2935_4" name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=79 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   87.634735] healthd: battery l=100 v=4073 t=31.8 h=2 st=3 fc=5631000 chg=
+[   88.449911] type=1400 audit(1788103667.196:106): avc:  denied  { read } for  comm="binder:2935_2" name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=332 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   88.451428] type=1400 audit(1788103667.196:107): avc:  denied  { read } for  comm="binder:2935_2" name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=79 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   88.468604] healthd: battery l=100 v=4073 t=31.8 h=2 st=3 fc=5631000 chg=
+[   90.000063] type=1400 audit(1788103668.740:108): avc:  denied  { read } for  comm="binder:2935_2" name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=332 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   90.000324] type=1400 audit(1788103668.740:109): avc:  denied  { read } for  comm="binder:2935_2" name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=79 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   90.734597] healthd: battery l=100 v=4087 t=31.8 h=2 st=3 fc=5631000 chg=
+[   92.631398] type=1400 audit(1788103671.376:110): avc:  denied  { read } for  comm="binder:2935_3" name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=332 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   92.632364] type=1400 audit(1788103671.376:111): avc:  denied  { read } for  comm="binder:2935_3" name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=79 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   93.026334] healthd: battery l=100 v=4088 t=31.8 h=2 st=3 fc=5631000 chg=
+[   93.467772] healthd: battery l=100 v=4088 t=31.8 h=2 st=3 fc=5631000 chg=
+[   93.483721] healthd: battery l=100 v=4088 t=31.8 h=2 st=3 fc=5631000 chg=
+[   94.529155] logd: start watching /data/system/packages.list ...
+[   94.542104] logd: ReadPackageList, total packages: 233
+[   95.555000] type=1400 audit(1788103674.300:112): avc:  denied  { read } for  comm="binder:2935_4" name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=332 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   95.555242] type=1400 audit(1788103674.300:113): avc:  denied  { read } for  comm="binder:2935_4" name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=79 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   95.603837] healthd: battery l=100 v=4087 t=31.8 h=2 st=3 fc=5631000 chg=
+[   97.635573] binder: undelivered transaction 145852, process died.
+[   97.636279] binder: undelivered transaction 145876, process died.
+[   97.636304] binder: undelivered transaction 145878, process died.
+[   97.636312] binder: undelivered transaction 145889, process died.
+[   97.636318] binder: undelivered transaction 145900, process died.
+[   97.636324] binder: undelivered transaction 145901, process died.
+[   97.636330] binder: undelivered transaction 145933, process died.
+[   97.636335] binder: undelivered transaction 145967, process died.
+[   97.636340] binder: undelivered transaction 145968, process died.
+[   97.636345] binder: undelivered transaction 145997, process died.
+[   98.151577] healthd: battery l=100 v=4089 t=31.8 h=2 st=3 fc=5631000 chg=
+[   98.276015] healthd: battery l=100 v=4089 t=31.8 h=2 st=3 fc=5631000 chg=
+[   98.305965] type=1400 audit(1788103677.052:114): avc:  denied  { read } for  comm="lowpool[2]" name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=332 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   98.308311] type=1400 audit(1788103677.052:115): avc:  denied  { read } for  comm="lowpool[2]" name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=79 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   98.549490] type=1400 audit(1788103677.296:116): avc:  denied  { read } for  comm="binder:2935_2" name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=332 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[   98.550424] type=1400 audit(1788103677.296:117): avc:  denied  { read } for  comm="binder:2935_2" name="u:object_r:adbd_prop:s0" dev="tmpfs" ino=79 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+[  103.709242] healthd: battery l=100 v=4133 t=31.2 h=2 st=3 fc=5631000 chg=
+[  103.724612] healthd: battery l=100 v=4133 t=31.2 h=2 st=3 fc=5631000 chg=
+[  113.949294] healthd: battery l=100 v=4150 t=30.7 h=2 st=3 fc=5631000 chg=
+[  113.964752] healthd: battery l=100 v=4150 t=30.7 h=2 st=3 fc=5631000 chg=
+[  119.841487] init: Service 'fps_hal.oplus.compat' (pid 1039) exited with status 0 oneshot service took 100.119003 seconds in background
+[  119.841543] init: Sending signal 9 to service 'fps_hal.oplus.compat' (pid 1039) process group...
+[  119.842183] libprocessgroup: Removed cgroup /sys/fs/cgroup/uid_1000/pid_1039
+[  119.852511] init: Service 'fps_hal.oppo.compat' (pid 1042) exited with status 0 oneshot service took 100.115997 seconds in background
+[  119.852585] init: Sending signal 9 to service 'fps_hal.oppo.compat' (pid 1042) process group...
+[  119.853070] libprocessgroup: Removed cgroup /sys/fs/cgroup/uid_1000/pid_1042
+[  120.184128] >>> rwnx_cfg80211_scan()
+[  120.184153] >>> rwnx_send_scanu_req()
+[  120.484908] >>> rwnx_rx_scanu_start_cfm()
+[  124.185844] healthd: battery l=100 v=4152 t=30.4 h=2 st=3 fc=5631000 chg=
+[  124.201702] healthd: battery l=100 v=4152 t=30.4 h=2 st=3 fc=5631000 chg=
+[  134.425798] healthd: battery l=100 v=4160 t=30.0 h=2 st=3 fc=5631000 chg=
+[  134.441661] healthd: battery l=100 v=4160 t=30.0 h=2 st=3 fc=5631000 chg=
+[  144.665561] healthd: battery l=100 v=4147 t=30.1 h=2 st=3 fc=5631000 chg=
+[  144.681763] healthd: battery l=100 v=4147 t=30.1 h=2 st=3 fc=5631000 chg=
+[  148.473877] healthd: battery l=100 v=4118 t=30.8 h=2 st=3 fc=5631000 chg=
+[  149.989202] healthd: battery l=100 v=4156 t=30.4 h=2 st=3 fc=5631000 chg=
+[  150.011915] healthd: battery l=100 v=4156 t=30.4 h=2 st=5 fc=5631000 chg=u
+[  150.043920] sunxi:sunxi_usbc:[INFO]: insmod_device_driver
+
+[  150.044239] sunxi_usb_udc 4100000.udc-controller: supply udc not found, using dummy regulator
+[  150.052762] type=1400 audit(1788103721.736:118): avc:  denied  { dac_override } for  comm="usb@1.0-service" capability=1  scontext=u:r:hal_usb_default:s0 tcontext=u:r:hal_usb_default:s0 tclass=capability permissive=0
+[  150.052993] type=1400 audit(1788103721.736:119): avc:  denied  { dac_override } for  comm="usb@1.0-service" capability=1  scontext=u:r:hal_usb_default:s0 tcontext=u:r:hal_usb_default:s0 tclass=capability permissive=0
+[  150.053105] type=1400 audit(1788103721.736:120): avc:  denied  { dac_override } for  comm="usb@1.0-service" capability=1  scontext=u:r:hal_usb_default:s0 tcontext=u:r:hal_usb_default:s0 tclass=capability permissive=0
+[  150.056372] healthd: battery l=100 v=4277 t=30.4 h=2 st=5 fc=5631000 chg=u
+[  150.077699] healthd: battery l=100 v=4277 t=29.6 h=2 st=5 fc=5631000 chg=u
+[  150.096420] healthd: battery l=100 v=4277 t=29.6 h=2 st=5 fc=5631000 chg=u
+[  150.155280] sunxi:axp2202_usb_power:[INFO]: No operation cc_status
+[  150.344490] android_work: sent uevent USB_STATE=CONNECTED
+[  150.361678] healthd: battery l=100 v=4277 t=29.6 h=2 st=5 fc=5631000 chg=u
+[  150.483423] android_work: sent uevent USB_STATE=CONFIGURED
+[  150.508492] healthd: battery l=100 v=4277 t=29.6 h=2 st=5 fc=5631000 chg=u
+[  151.993800] sunxi:dwc3_sunxi_plat@soc@3000000:usbc2@0[INFO]: wait for DWC3 detect 1s timeout!
+[  153.481078] healthd: battery l=100 v=4206 t=30.0 h=2 st=5 fc=5631000 chg=u
+[  153.505241] healthd: battery l=100 v=4206 t=30.0 h=2 st=5 fc=5631000 chg=u
+[  153.524760] healthd: battery l=100 v=4206 t=30.0 h=2 st=5 fc=5631000 chg=u
+[  155.144708] sunxi:axp2202_usb_power:[INFO]: current limit setted: usb pc type
+[  158.898881] servicemanager: Isolated app with UID 99002 requested 'network_management', but the service is not allowed for isolated apps.
+[  159.035698] servicemanager: Isolated app with UID 99002 requested 'connectivity', but the service is not allowed for isolated apps.
+[  159.075603] SELinux: avc:  denied  { find } for pid=5047 uid=99002 name=content_capture scontext=u:r:isolated_app:s0:c512,c768 tcontext=u:object_r:content_capture_service:s0 tclass=service_manager permissive=0
+[  159.091207] servicemanager: Isolated app with UID 99002 requested 'account', but the service is not allowed for isolated apps.
+[  160.326908] healthd: battery l=100 v=4234 t=29.6 h=2 st=5 fc=5631000 chg=u
+[  160.347450] healthd: battery l=100 v=4234 t=29.6 h=2 st=5 fc=5631000 chg=u
+[  160.366343] healthd: battery l=100 v=4234 t=29.6 h=2 st=5 fc=5631000 chg=u
+[  160.386142] healthd: battery l=100 v=4234 t=29.6 h=2 st=5 fc=5631000 chg=u
+[  160.403414] healthd: battery l=100 v=4234 t=29.6 h=2 st=5 fc=5631000 chg=u
+[  160.423250] healthd: battery l=100 v=4234 t=29.6 h=2 st=5 fc=5631000 chg=u
+[  160.441721] healthd: battery l=100 v=4234 t=29.6 h=2 st=5 fc=5631000 chg=u
+[  160.460077] healthd: battery l=100 v=4234 t=29.6 h=2 st=5 fc=5631000 chg=u
+[  160.477794] healthd: battery l=100 v=4234 t=29.6 h=2 st=5 fc=5631000 chg=u
+[  160.498699] healthd: battery l=100 v=4234 t=29.6 h=2 st=5 fc=5631000 chg=u
+[  175.386727] healthd: battery l=100 v=4302 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  175.403662] healthd: battery l=100 v=4302 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  185.626857] healthd: battery l=100 v=4303 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  185.644252] healthd: battery l=100 v=4303 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  194.834931] healthd: battery l=100 v=4300 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  195.867086] healthd: battery l=100 v=4305 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  195.884623] healthd: battery l=100 v=4305 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  200.008258] healthd: battery l=100 v=4307 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  200.186301] >>> rwnx_cfg80211_scan()
+[  200.186325] >>> rwnx_send_scanu_req()
+[  200.487662] >>> rwnx_rx_scanu_start_cfm()
+[  206.106498] healthd: battery l=100 v=4303 t=28.8 h=2 st=5 fc=5631000 chg=u
+[  206.123347] healthd: battery l=100 v=4303 t=28.8 h=2 st=5 fc=5631000 chg=u
+[  208.478006] healthd: battery l=100 v=4305 t=28.8 h=2 st=5 fc=5631000 chg=u
+[  210.011719] healthd: battery l=100 v=4306 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  210.030602] healthd: battery l=100 v=4306 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  216.346604] healthd: battery l=100 v=4305 t=28.8 h=2 st=5 fc=5631000 chg=u
+[  216.364257] healthd: battery l=100 v=4305 t=28.8 h=2 st=5 fc=5631000 chg=u
+[  226.587403] healthd: battery l=100 v=4312 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  226.606190] healthd: battery l=100 v=4306 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  230.929532] healthd: battery l=100 v=4308 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  231.751961] healthd: battery l=100 v=4307 t=28.8 h=2 st=5 fc=5631000 chg=u
+[  236.827058] healthd: battery l=100 v=4311 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  236.844814] healthd: battery l=100 v=4311 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  247.067059] healthd: battery l=100 v=4306 t=28.8 h=2 st=5 fc=5631000 chg=u
+[  247.085238] healthd: battery l=100 v=4306 t=28.8 h=2 st=5 fc=5631000 chg=u
+[  257.307145] healthd: battery l=100 v=4310 t=29.0 h=2 st=5 fc=5631000 chg=u
+[  257.326601] healthd: battery l=100 v=4310 t=29.0 h=2 st=5 fc=5631000 chg=u
+[  261.650435] healthd: battery l=100 v=4303 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  263.803973] healthd: battery l=100 v=4307 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  267.547516] healthd: battery l=100 v=4344 t=28.7 h=2 st=5 fc=5631000 chg=u
+[  267.566521] healthd: battery l=100 v=4344 t=28.7 h=2 st=5 fc=5631000 chg=u
+[  268.476648] healthd: battery l=100 v=4344 t=28.7 h=2 st=5 fc=5631000 chg=u
+[  270.009470] healthd: battery l=100 v=4344 t=28.7 h=2 st=5 fc=5631000 chg=u
+[  270.026129] healthd: battery l=100 v=4344 t=28.7 h=2 st=5 fc=5631000 chg=u
+[  273.312885] sc7a20_enable_store: buf=0
+[  273.312911] enable_sensor: sc7a20_CTRL_PWRDN
+[  273.369161] disp_runtime_idle
+[  273.369193] disp_runtime_suspend
+[  273.613126] lcd_panel_fun[1].bnd_power_off is NULL
+[  273.613172] \x1b[0m[DISP WRN]\x1b[0m: [de_smbl_enable_ahb_read:0554]: [70D[70C[0mde_smbl_enable_ahb_read=0
+[  273.613185] \x1b[0m[DISP WRN]\x1b[0m: [de_dci_enable_ahb_read:0748]: [70D[70C[0mde_dci_enable_ahb_read=0
+[  273.624672] disp_runtime_suspend finish
+[  273.625546] \x1b[0m[DISP WRN]\x1b[0m: [disp_mgr_protect_reg_for_rcq:1039]: [70D[70C[0mNULL hdl!
+[  273.625578] \x1b[0m[DISP WRN]\x1b[0m: [disp_mgr_protect_reg_for_rcq:1039]: [70D[70C[0mNULL hdl!
+[  273.652613] gslX680 go to idle
+[  273.666537] IOCTL PRIVATE
+[  273.666576] android_priv_cmd: Android private cmd "SETSUSPENDMODE 1" on wlan0
+[  273.666599] >>> rwnx_send_me_set_lp_level()
+[  273.666603] rwnx_send_me_set_lp_level 1 0 
+[  273.666977] set suspend mode 1
+[  273.674877] type=1400 audit(1788103845.360:121): avc:  denied  { search } for  comm="android.hardwar" name="1" dev="proc" ino=17065 scontext=u:r:hal_power_default:s0 tcontext=u:r:init:s0 tclass=dir permissive=0
+[  273.675088] type=1400 audit(1788103845.360:122): avc:  denied  { search } for  comm="android.hardwar" name="1" dev="proc" ino=17065 scontext=u:r:hal_power_default:s0 tcontext=u:r:init:s0 tclass=dir permissive=0
+[  273.676711] type=1400 audit(1788103845.360:123): avc:  denied  { search } for  comm="android.hardwar" name="1" dev="proc" ino=17065 scontext=u:r:hal_power_default:s0 tcontext=u:r:init:s0 tclass=dir permissive=0
+[  273.676872] type=1400 audit(1788103845.360:124): avc:  denied  { search } for  comm="android.hardwar" name="1" dev="proc" ino=17065 scontext=u:r:hal_power_default:s0 tcontext=u:r:init:s0 tclass=dir permissive=0
+[  273.685734] audit: audit_lost=7 audit_rate_limit=5 audit_backlog_limit=64
+[  273.685761] audit: rate limit exceeded
+[  273.686006] type=1400 audit(1788103845.368:125): avc:  denied  { search } for  comm="android.hardwar" name="189" dev="proc" ino=64386 scontext=u:r:hal_power_default:s0 tcontext=u:r:vendor_init:s0 tclass=dir permissive=0
+[  273.686183] type=1400 audit(1788103845.368:126): avc:  denied  { search } for  comm="android.hardwar" name="189" dev="proc" ino=64386 scontext=u:r:hal_power_default:s0 tcontext=u:r:vendor_init:s0 tclass=dir permissive=0
+[  273.686283] type=1400 audit(1788103845.368:127): avc:  denied  { search } for  comm="android.hardwar" name="190" dev="proc" ino=52337 scontext=u:r:hal_power_default:s0 tcontext=u:r:ueventd:s0 tclass=dir permissive=0
+[  273.686378] type=1400 audit(1788103845.368:128): avc:  denied  { search } for  comm="android.hardwar" name="190" dev="proc" ino=52337 scontext=u:r:hal_power_default:s0 tcontext=u:r:ueventd:s0 tclass=dir permissive=0
+[  273.686466] type=1400 audit(1788103845.372:129): avc:  denied  { search } for  comm="android.hardwar" name="250" dev="proc" ino=69944 scontext=u:r:hal_power_default:s0 tcontext=u:r:prng_seeder:s0 tclass=dir permissive=0
+[  277.788340] healthd: battery l=100 v=4346 t=28.7 h=2 st=5 fc=5631000 chg=u
+[  277.808135] healthd: battery l=100 v=4346 t=28.7 h=2 st=5 fc=5631000 chg=u
+[  284.948031] healthd: battery l=100 v=4345 t=28.8 h=2 st=5 fc=5631000 chg=u
+[  288.027941] healthd: battery l=100 v=4345 t=28.7 h=2 st=5 fc=5631000 chg=u
+[  288.045906] healthd: battery l=100 v=4345 t=28.8 h=2 st=5 fc=5631000 chg=u
+[  294.886270] healthd: battery l=100 v=4346 t=28.8 h=2 st=5 fc=5631000 chg=u
+[  298.267284] healthd: battery l=100 v=4346 t=28.8 h=2 st=5 fc=5631000 chg=u
+[  298.283125] healthd: battery l=100 v=4346 t=28.8 h=2 st=5 fc=5631000 chg=u
+[  308.520557] healthd: battery l=100 v=4346 t=28.7 h=2 st=5 fc=5631000 chg=u
+[  308.537921] healthd: battery l=100 v=4346 t=28.7 h=2 st=5 fc=5631000 chg=u
+[  318.760880] healthd: battery l=100 v=4346 t=28.7 h=2 st=5 fc=5631000 chg=u
+[  318.778248] healthd: battery l=100 v=4346 t=28.7 h=2 st=5 fc=5631000 chg=u
+[  328.479777] healthd: battery l=100 v=4346 t=28.7 h=2 st=5 fc=5631000 chg=u
+[  329.001172] healthd: battery l=100 v=4346 t=28.7 h=2 st=5 fc=5631000 chg=u
+[  329.018784] healthd: battery l=100 v=4346 t=28.7 h=2 st=5 fc=5631000 chg=u
+[  330.010059] healthd: battery l=100 v=4346 t=28.7 h=2 st=5 fc=5631000 chg=u
+[  330.027502] healthd: battery l=100 v=4346 t=28.7 h=2 st=5 fc=5631000 chg=u
+[  331.035654] gslX680 go to active
+[  331.038298] \x1b[0m[DISP WRN]\x1b[0m: [disp_mgr_protect_reg_for_rcq:1039]: [70D[70C[0mNULL hdl!
+[  331.038343] \x1b[0m[DISP WRN]\x1b[0m: [disp_mgr_protect_reg_for_rcq:1039]: [70D[70C[0mNULL hdl!
+[  331.038409] disp_runtime_resume
+[  331.038462] \x1b[0m[DISP WRN]\x1b[0m: [disp_register_irq:0498]: [70D[70C[0mirq for 0 already registered
+[  331.039212] \x1b[0m[DISP WRN]\x1b[0m: [de_top_set_de2tcon_mux:0177]: [70D[70C[0mtcon 1
+[  331.041556] \x1b[0m[DISP WRN]\x1b[0m: [de_smbl_enable_ahb_read:0554]: [70D[70C[0mde_smbl_enable_ahb_read=1
+[  331.041596] \x1b[0m[DISP WRN]\x1b[0m: [de_dci_enable_ahb_read:0748]: [70D[70C[0mde_dci_enable_ahb_read=1
+[  331.041722] \x1b[0m[DISP WRN]\x1b[0m: [lcd_clk_config:0964]: [70D[70C[0mlcd 1, clk:tcon_clk(420000000),dclk(70000000) dsi_rate(70000000)
+ 
+[  331.041738] \x1b[0m[DISP WRN]\x1b[0m: [lcd_clk_config:0966]: [70D[70C[0mclk real:tcon_clk(420000000),dclk(105000000) dsi_rate(150000000)
+[  331.065148] >>> rwnx_cfg80211_scan()
+[  331.065178] >>> rwnx_send_scanu_req()
+[  331.075142] IOCTL PRIVATE
+[  331.075177] android_priv_cmd: Android private cmd "SETSUSPENDMODE 0" on wlan0
+[  331.075201] >>> rwnx_send_me_set_lp_level()
+[  331.075205] rwnx_send_me_set_lp_level 0 1 
+[  331.075613] set suspend mode 0
+[  331.124033] sc7a20_delay_store: sc7a20 delay 66
+[  331.124592] sc7a20_enable_store: buf=1
+[  331.124617] enable_sensor: sc7a20_CTRL_PWRON
+[  331.125151] enable_sensor: sc7a20 delay 66
+[  331.157695] type=1400 audit(1788103902.844:197): avc:  denied  { search } for  comm="android.hardwar" name="1" dev="proc" ino=17065 scontext=u:r:hal_power_default:s0 tcontext=u:r:init:s0 tclass=dir permissive=0
+[  331.157836] type=1400 audit(1788103902.844:198): avc:  denied  { search } for  comm="android.hardwar" name="1" dev="proc" ino=17065 scontext=u:r:hal_power_default:s0 tcontext=u:r:init:s0 tclass=dir permissive=0
+[  331.158391] type=1400 audit(1788103902.844:199): avc:  denied  { search } for  comm="android.hardwar" name="1" dev="proc" ino=17065 scontext=u:r:hal_power_default:s0 tcontext=u:r:init:s0 tclass=dir permissive=0
+[  331.158482] type=1400 audit(1788103902.844:200): avc:  denied  { search } for  comm="android.hardwar" name="1" dev="proc" ino=17065 scontext=u:r:hal_power_default:s0 tcontext=u:r:init:s0 tclass=dir permissive=0
+[  331.162937] audit: audit_lost=74 audit_rate_limit=5 audit_backlog_limit=64
+[  331.162952] audit: rate limit exceeded
+[  331.163085] type=1400 audit(1788103902.848:201): avc:  denied  { search } for  comm="android.hardwar" name="189" dev="proc" ino=64386 scontext=u:r:hal_power_default:s0 tcontext=u:r:vendor_init:s0 tclass=dir permissive=0
+[  331.366892] >>> rwnx_rx_scanu_start_cfm()
+[  331.552615] disp_runtime_resume finish
+[  336.928479] type=1400 audit(1788103908.612:273): avc:  denied  { dac_read_search } for  comm="tee_supplicant" capability=2  scontext=u:r:tee:s0 tcontext=u:r:tee:s0 tclass=capability permissive=0
+[  336.934208] type=1400 audit(1788103908.620:274): avc:  denied  { dac_read_search } for  comm="tee_supplicant" capability=2  scontext=u:r:tee:s0 tcontext=u:r:tee:s0 tclass=capability permissive=0
+[  336.937795] type=1400 audit(1788103908.624:275): avc:  denied  { dac_read_search } for  comm="tee_supplicant" capability=2  scontext=u:r:tee:s0 tcontext=u:r:tee:s0 tclass=capability permissive=0
+[  336.943487] type=1400 audit(1788103908.628:276): avc:  denied  { dac_read_search } for  comm="tee_supplicant" capability=2  scontext=u:r:tee:s0 tcontext=u:r:tee:s0 tclass=capability permissive=0
+[  336.951602] type=1400 audit(1788103908.636:277): avc:  denied  { dac_read_search } for  comm="tee_supplicant" capability=2  scontext=u:r:tee:s0 tcontext=u:r:tee:s0 tclass=capability permissive=0
+[  336.957406] audit: audit_lost=145 audit_rate_limit=5 audit_backlog_limit=64
+[  336.957420] audit: rate limit exceeded
+[  339.233318] healthd: battery l=100 v=4275 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  339.253629] healthd: battery l=100 v=4275 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  349.467277] healthd: battery l=100 v=4318 t=28.8 h=2 st=5 fc=5631000 chg=u
+[  349.485980] healthd: battery l=100 v=4318 t=28.8 h=2 st=5 fc=5631000 chg=u
+[  351.068150] >>> rwnx_cfg80211_scan()
+[  351.068174] >>> rwnx_send_scanu_req()
+[  351.369098] >>> rwnx_rx_scanu_start_cfm()
+[  359.707100] healthd: battery l=100 v=4319 t=28.8 h=2 st=5 fc=5631000 chg=u
+[  359.724801] healthd: battery l=100 v=4319 t=28.8 h=2 st=5 fc=5631000 chg=u
+[  369.947473] healthd: battery l=100 v=4315 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  369.966873] healthd: battery l=100 v=4315 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  380.187133] healthd: battery l=100 v=4319 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  380.205391] healthd: battery l=100 v=4319 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  388.480201] healthd: battery l=100 v=4319 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  389.953814] aicwf_vendor_apf_set_filter
+[  390.009267] healthd: battery l=100 v=4314 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  390.026278] healthd: battery l=100 v=4314 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  390.427025] healthd: battery l=100 v=4314 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  390.443752] healthd: battery l=100 v=4314 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  391.070312] >>> rwnx_cfg80211_scan()
+[  391.070338] >>> rwnx_send_scanu_req()
+[  391.371386] >>> rwnx_rx_scanu_start_cfm()
+[  400.667207] healthd: battery l=100 v=4320 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  400.686255] healthd: battery l=100 v=4320 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  410.907799] healthd: battery l=100 v=4318 t=29.0 h=2 st=5 fc=5631000 chg=u
+[  410.926559] healthd: battery l=100 v=4318 t=29.0 h=2 st=5 fc=5631000 chg=u
+[  421.147086] healthd: battery l=100 v=4316 t=29.0 h=2 st=5 fc=5631000 chg=u
+[  421.165182] healthd: battery l=100 v=4316 t=29.0 h=2 st=5 fc=5631000 chg=u
+[  431.387856] healthd: battery l=100 v=4318 t=29.0 h=2 st=5 fc=5631000 chg=u
+[  431.406812] healthd: battery l=100 v=4318 t=29.0 h=2 st=5 fc=5631000 chg=u
+[  441.627712] healthd: battery l=100 v=4315 t=29.0 h=2 st=5 fc=5631000 chg=u
+[  441.649049] healthd: battery l=100 v=4315 t=29.0 h=2 st=5 fc=5631000 chg=u
+[  448.480425] healthd: battery l=100 v=4320 t=29.0 h=2 st=5 fc=5631000 chg=u
+[  450.009340] healthd: battery l=100 v=4315 t=29.0 h=2 st=5 fc=5631000 chg=u
+[  450.028815] healthd: battery l=100 v=4315 t=29.0 h=2 st=5 fc=5631000 chg=u
+[  451.867292] healthd: battery l=100 v=4319 t=29.0 h=2 st=5 fc=5631000 chg=u
+[  451.887596] healthd: battery l=100 v=4319 t=29.0 h=2 st=5 fc=5631000 chg=u
+[  462.109258] healthd: battery l=100 v=4344 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  462.129825] healthd: battery l=100 v=4322 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  462.191460] sc7a20_enable_store: buf=0
+[  462.191487] enable_sensor: sc7a20_CTRL_PWRDN
+[  462.230917] disp_runtime_idle
+[  462.230958] disp_runtime_suspend
+[  462.473085] lcd_panel_fun[1].bnd_power_off is NULL
+[  462.473131] \x1b[0m[DISP WRN]\x1b[0m: [de_smbl_enable_ahb_read:0554]: [70D[70C[0mde_smbl_enable_ahb_read=0
+[  462.473144] \x1b[0m[DISP WRN]\x1b[0m: [de_dci_enable_ahb_read:0748]: [70D[70C[0mde_dci_enable_ahb_read=0
+[  462.484613] disp_runtime_suspend finish
+[  462.485482] \x1b[0m[DISP WRN]\x1b[0m: [disp_mgr_protect_reg_for_rcq:1039]: [70D[70C[0mNULL hdl!
+[  462.485521] \x1b[0m[DISP WRN]\x1b[0m: [disp_mgr_protect_reg_for_rcq:1039]: [70D[70C[0mNULL hdl!
+[  462.504763] gslX680 go to idle
+[  462.526917] IOCTL PRIVATE
+[  462.526953] android_priv_cmd: Android private cmd "SETSUSPENDMODE 1" on wlan0
+[  462.526980] >>> rwnx_send_me_set_lp_level()
+[  462.526983] rwnx_send_me_set_lp_level 1 0 
+[  462.527396] set suspend mode 1
+[  472.348447] healthd: battery l=100 v=4346 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  472.366549] healthd: battery l=100 v=4346 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  482.587504] healthd: battery l=100 v=4347 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  482.605173] healthd: battery l=100 v=4347 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  487.954113] healthd: battery l=100 v=4346 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  492.827828] healthd: battery l=100 v=4346 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  492.844024] healthd: battery l=100 v=4346 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  503.067663] healthd: battery l=100 v=4346 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  503.085128] healthd: battery l=100 v=4346 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  508.482719] healthd: battery l=100 v=4346 t=29.0 h=2 st=5 fc=5631000 chg=u
+[  510.012125] healthd: battery l=100 v=4347 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  510.030699] healthd: battery l=100 v=4347 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  513.308661] healthd: battery l=100 v=4346 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  513.325991] healthd: battery l=100 v=4346 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  523.547994] healthd: battery l=100 v=4346 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  523.565220] healthd: battery l=100 v=4346 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  533.800815] healthd: battery l=100 v=4346 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  533.817699] healthd: battery l=100 v=4346 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  544.040567] healthd: battery l=100 v=4347 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  544.060659] healthd: battery l=100 v=4347 t=28.9 h=2 st=5 fc=5631000 chg=u
+[  554.268297] healthd: battery l=100 v=4347 t=28.8 h=2 st=5 fc=5631000 chg=u
+[  554.285811] healthd: battery l=100 v=4347 t=28.8 h=2 st=5 fc=5631000 chg=u
+[  557.383943] healthd: battery l=100 v=4346 t=28.8 h=2 st=5 fc=5631000 chg=u
+[  564.520888] healthd: battery l=100 v=4346 t=28.8 h=2 st=5 fc=5631000 chg=u
+[  564.537719] healthd: battery l=100 v=4346 t=28.8 h=2 st=5 fc=5631000 chg=u
+[  568.484178] healthd: battery l=100 v=4347 t=28.8 h=2 st=5 fc=5631000 chg=u
+[  570.011741] healthd: battery l=100 v=4346 t=28.8 h=2 st=5 fc=5631000 chg=u
+[  570.030510] healthd: battery l=100 v=4346 t=28.8 h=2 st=5 fc=5631000 chg=u
+[  574.747966] healthd: battery l=100 v=4346 t=28.8 h=2 st=5 fc=5631000 chg=u
+[  574.764986] healthd: battery l=100 v=4346 t=28.8 h=2 st=5 fc=5631000 chg=u
+[  584.987849] healthd: battery l=100 v=4347 t=28.8 h=2 st=5 fc=5631000 chg=u
+[  585.006290] healthd: battery l=100 v=4347 t=28.8 h=2 st=5 fc=5631000 chg=u
+[  589.331874] healthd: battery l=100 v=4347 t=28.8 h=2 st=5 fc=5631000 chg=u
+[  595.227326] healthd: battery l=100 v=4346 t=28.8 h=2 st=5 fc=5631000 chg=u
+[  595.243596] healthd: battery l=100 v=4346 t=28.8 h=2 st=5 fc=5631000 chg=u
+[  601.824429] healthd: battery l=100 v=4346 t=28.8 h=2 st=5 fc=5631000 chg=u
+[  605.467690] healthd: battery l=100 v=4346 t=28.8 h=2 st=5 fc=5631000 chg=u
+[  605.483438] healthd: battery l=100 v=4346 t=28.8 h=2 st=5 fc=5631000 chg=u
+[  615.708252] healthd: battery l=100 v=4346 t=28.8 h=2 st=5 fc=5631000 chg=u
+[  615.725330] healthd: battery l=100 v=4346 t=28.8 h=2 st=5 fc=5631000 chg=u
+[  622.100442] healthd: battery l=100 v=4347 t=28.8 h=2 st=5 fc=5631000 chg=u
+[  625.948259] healthd: battery l=100 v=4346 t=28.7 h=2 st=5 fc=5631000 chg=u
+[  625.965961] healthd: battery l=100 v=4346 t=28.7 h=2 st=5 fc=5631000 chg=u
+[  628.484274] healthd: battery l=100 v=4346 t=28.7 h=2 st=5 fc=5631000 chg=u
+[  630.010713] healthd: battery l=100 v=4346 t=28.7 h=2 st=5 fc=5631000 chg=u
+[  630.027673] healthd: battery l=100 v=4346 t=28.7 h=2 st=5 fc=5631000 chg=u
+[  636.187498] healthd: battery l=100 v=4346 t=28.7 h=2 st=5 fc=5631000 chg=u
+[  636.204639] healthd: battery l=100 v=4346 t=28.7 h=2 st=5 fc=5631000 chg=u
+[  638.995973] healthd: battery l=100 v=4346 t=28.7 h=2 st=5 fc=5631000 chg=u
+[  646.427170] healthd: battery l=100 v=4347 t=28.7 h=2 st=5 fc=5631000 chg=u
+[  646.445422] healthd: battery l=100 v=4347 t=28.7 h=2 st=5 fc=5631000 chg=u
+[  655.523402] binder_cleanup_transaction: 21 callbacks suppressed
+[  655.523431] binder: undelivered transaction 197986, process died.
+[  655.523450] binder: undelivered transaction 199232, process died.
+[  655.523456] binder: undelivered transaction 199662, process died.
+[  655.523474] binder: undelivered transaction 209645, process died.
+[  655.523480] binder: undelivered transaction 210130, process died.
+[  655.523790] binder: undelivered transaction 197810, process died.
+[  655.661231] binder: undelivered transaction 162977, process died.
+[  655.661264] binder: undelivered transaction 168827, process died.
+[  655.661271] binder: undelivered transaction 199514, process died.
+[  655.661277] binder: undelivered transaction 201419, process died.
+[  656.667623] healthd: battery l=100 v=4346 t=28.7 h=2 st=5 fc=5631000 chg=u
+[  656.685352] healthd: battery l=100 v=4346 t=28.7 h=2 st=5 fc=5631000 chg=u
+[  666.907929] healthd: battery l=100 v=4346 t=28.7 h=2 st=5 fc=5631000 chg=u
+[  666.925161] healthd: battery l=100 v=4346 t=28.7 h=2 st=5 fc=5631000 chg=u
+[  677.148427] healthd: battery l=100 v=4346 t=28.7 h=2 st=5 fc=5631000 chg=u
+[  677.165592] healthd: battery l=100 v=4346 t=28.7 h=2 st=5 fc=5631000 chg=u
+[  680.978089] healthd: battery l=100 v=4346 t=28.7 h=2 st=5 fc=5631000 chg=u
+[  687.387962] healthd: battery l=100 v=4347 t=28.7 h=2 st=5 fc=5631000 chg=u
+[  687.406941] healthd: battery l=100 v=4347 t=28.7 h=2 st=5 fc=5631000 chg=u
+[  688.485200] healthd: battery l=100 v=4346 t=28.7 h=2 st=5 fc=5631000 chg=u
+[  690.011936] healthd: battery l=100 v=4346 t=28.7 h=2 st=5 fc=5631000 chg=u
+[  690.032032] healthd: battery l=100 v=4346 t=28.7 h=2 st=5 fc=5631000 chg=u
+[  697.628405] healthd: battery l=100 v=4346 t=28.7 h=2 st=5 fc=5631000 chg=u
+[  697.645262] healthd: battery l=100 v=4346 t=28.7 h=2 st=5 fc=5631000 chg=u
+[  705.034130] aicwf_vendor_apf_set_filter
+[  705.044723] healthd: battery l=100 v=4346 t=28.7 h=2 st=5 fc=5631000 chg=u
+[  707.868472] healthd: battery l=100 v=4346 t=28.7 h=2 st=5 fc=5631000 chg=u
+[  707.885308] healthd: battery l=100 v=4346 t=28.7 h=2 st=5 fc=5631000 chg=u
+[  718.108477] healthd: battery l=100 v=4346 t=28.7 h=2 st=5 fc=5631000 chg=u
+[  718.125327] healthd: battery l=100 v=4346 t=28.7 h=2 st=5 fc=5631000 chg=u
+[  720.147869] healthd: battery l=100 v=4346 t=28.6 h=2 st=5 fc=5631000 chg=u
+[  723.066595] healthd: battery l=100 v=4346 t=28.6 h=2 st=5 fc=5631000 chg=u
+[  728.347938] healthd: battery l=100 v=4346 t=28.6 h=2 st=5 fc=5631000 chg=u
+[  728.366107] healthd: battery l=100 v=4346 t=28.6 h=2 st=5 fc=5631000 chg=u
+[  738.587993] healthd: battery l=100 v=4347 t=28.6 h=2 st=5 fc=5631000 chg=u
+[  738.607393] healthd: battery l=100 v=4347 t=28.6 h=2 st=5 fc=5631000 chg=u
+[  747.283786] healthd: battery l=100 v=4346 t=28.6 h=2 st=5 fc=5631000 chg=u
+[  748.487559] healthd: battery l=100 v=4346 t=28.6 h=2 st=5 fc=5631000 chg=u
+[  748.843162] healthd: battery l=100 v=4347 t=28.6 h=2 st=5 fc=5631000 chg=u
+[  748.861995] healthd: battery l=100 v=4347 t=28.6 h=2 st=5 fc=5631000 chg=u
+[  750.012141] healthd: battery l=100 v=4346 t=28.6 h=2 st=5 fc=5631000 chg=u
+[  750.029470] healthd: battery l=100 v=4346 t=28.6 h=2 st=5 fc=5631000 chg=u
+[  754.706373] healthd: battery l=100 v=4347 t=28.6 h=2 st=5 fc=5631000 chg=u
+[  759.067330] healthd: battery l=100 v=4346 t=28.6 h=2 st=5 fc=5631000 chg=u
+[  759.083736] healthd: battery l=100 v=4346 t=28.6 h=2 st=5 fc=5631000 chg=u
+[  769.308586] healthd: battery l=100 v=4347 t=28.6 h=2 st=5 fc=5631000 chg=u
+[  769.327809] healthd: battery l=100 v=4347 t=28.6 h=2 st=5 fc=5631000 chg=u
+[  779.547962] healthd: battery l=100 v=4346 t=28.6 h=2 st=5 fc=5631000 chg=u
+[  779.567300] healthd: battery l=100 v=4346 t=28.6 h=2 st=5 fc=5631000 chg=u
+[  782.610106] healthd: battery l=100 v=4346 t=28.6 h=2 st=5 fc=5631000 chg=u
+[  789.788388] healthd: battery l=100 v=4346 t=28.5 h=2 st=5 fc=5631000 chg=u
+[  789.808270] healthd: battery l=100 v=4346 t=28.5 h=2 st=5 fc=5631000 chg=u
+[  800.027935] healthd: battery l=100 v=4346 t=28.6 h=2 st=5 fc=5631000 chg=u
+[  800.046792] healthd: battery l=100 v=4346 t=28.6 h=2 st=5 fc=5631000 chg=u
+[  808.488680] healthd: battery l=100 v=4346 t=28.6 h=2 st=5 fc=5631000 chg=u
+[  810.011750] healthd: battery l=100 v=4347 t=28.5 h=2 st=5 fc=5631000 chg=u
+[  810.033009] healthd: battery l=100 v=4347 t=28.5 h=2 st=5 fc=5631000 chg=u
+[  810.266852] healthd: battery l=100 v=4347 t=28.5 h=2 st=5 fc=5631000 chg=u
+[  810.282614] healthd: battery l=100 v=4347 t=28.5 h=2 st=5 fc=5631000 chg=u
+[  820.520549] healthd: battery l=100 v=4347 t=28.5 h=2 st=5 fc=5631000 chg=u
+[  820.537910] healthd: battery l=100 v=4347 t=28.5 h=2 st=5 fc=5631000 chg=u
+[  830.760880] healthd: battery l=100 v=4347 t=28.5 h=2 st=5 fc=5631000 chg=u
+[  830.778200] healthd: battery l=100 v=4347 t=28.5 h=2 st=5 fc=5631000 chg=u
+[  841.000809] healthd: battery l=100 v=4347 t=28.5 h=2 st=5 fc=5631000 chg=u
+[  841.018112] healthd: battery l=100 v=4347 t=28.5 h=2 st=5 fc=5631000 chg=u
+[  851.240548] healthd: battery l=100 v=4346 t=28.5 h=2 st=5 fc=5631000 chg=u
+[  851.259405] healthd: battery l=100 v=4346 t=28.5 h=2 st=5 fc=5631000 chg=u
+[  861.480784] healthd: battery l=100 v=4346 t=28.5 h=2 st=5 fc=5631000 chg=u
+[  861.498072] healthd: battery l=100 v=4346 t=28.5 h=2 st=5 fc=5631000 chg=u
+[  863.864016] healthd: battery l=100 v=4347 t=28.5 h=2 st=5 fc=5631000 chg=u
+[  868.488723] healthd: battery l=100 v=4346 t=28.4 h=2 st=5 fc=5631000 chg=u
+[  870.011641] healthd: battery l=100 v=4346 t=28.4 h=2 st=5 fc=5631000 chg=u
+[  870.028460] healthd: battery l=100 v=4346 t=28.4 h=2 st=5 fc=5631000 chg=u
+[  871.708472] healthd: battery l=100 v=4346 t=28.5 h=2 st=5 fc=5631000 chg=u
+[  871.726969] healthd: battery l=100 v=4346 t=28.5 h=2 st=5 fc=5631000 chg=u
+[  881.948668] healthd: battery l=100 v=4346 t=28.5 h=2 st=5 fc=5631000 chg=u
+[  881.965634] healthd: battery l=100 v=4346 t=28.5 h=2 st=5 fc=5631000 chg=u
+[  892.187918] healthd: battery l=100 v=4346 t=28.4 h=2 st=5 fc=5631000 chg=u
+[  892.205770] healthd: battery l=100 v=4346 t=28.4 h=2 st=5 fc=5631000 chg=u
+[  902.427678] healthd: battery l=100 v=4346 t=28.4 h=2 st=5 fc=5631000 chg=u
+[  902.443478] healthd: battery l=100 v=4346 t=28.4 h=2 st=5 fc=5631000 chg=u
+[  902.932325] healthd: battery l=100 v=4346 t=28.4 h=2 st=5 fc=5631000 chg=u
+[  912.667558] healthd: battery l=100 v=4347 t=28.4 h=2 st=5 fc=5631000 chg=u
+[  912.686315] healthd: battery l=100 v=4347 t=28.4 h=2 st=5 fc=5631000 chg=u
+[  922.907942] healthd: battery l=100 v=4347 t=28.4 h=2 st=5 fc=5631000 chg=u
+[  922.923712] healthd: battery l=100 v=4347 t=28.4 h=2 st=5 fc=5631000 chg=u
+[  928.489725] healthd: battery l=100 v=4347 t=28.4 h=2 st=5 fc=5631000 chg=u
+[  930.011940] healthd: battery l=100 v=4347 t=28.4 h=2 st=5 fc=5631000 chg=u
+[  930.028498] healthd: battery l=100 v=4347 t=28.4 h=2 st=5 fc=5631000 chg=u
+[  932.471891] healthd: battery l=100 v=4347 t=28.4 h=2 st=5 fc=5631000 chg=u
+[  933.147909] healthd: battery l=100 v=4347 t=28.4 h=2 st=5 fc=5631000 chg=u
+[  933.164684] healthd: battery l=100 v=4347 t=28.4 h=2 st=5 fc=5631000 chg=u
+[  943.387961] healthd: battery l=100 v=4346 t=28.3 h=2 st=5 fc=5631000 chg=u
+[  943.405826] healthd: battery l=100 v=4346 t=28.3 h=2 st=5 fc=5631000 chg=u
+[  949.523011] healthd: battery l=100 v=4347 t=28.4 h=2 st=5 fc=5631000 chg=u
+[  953.628303] healthd: battery l=100 v=4347 t=28.4 h=2 st=5 fc=5631000 chg=u
+[  953.645560] healthd: battery l=100 v=4347 t=28.4 h=2 st=5 fc=5631000 chg=u
+[  960.024909] init: Service 'adbd' (pid 1053) exited with status 0
+[  960.024963] init: Sending signal 9 to service 'adbd' (pid 1053) process group...
+[  960.025540] libprocessgroup: Removed cgroup /sys/fs/cgroup/uid_0/pid_1053
+[  960.026801] init: starting service 'adbd'...
+[  960.028434] init: Created socket '/dev/socket/adbd', mode 660, user 1000, group 1000
+[  960.034489] init: ... started service 'adbd' has pid 5221
+[  960.085052] android_work: sent uevent USB_STATE=DISCONNECTED
+[  960.087722] android_work: did not send uevent (0 0 0000000000000000)
+[  960.087899] read descriptors
+[  960.087919] read strings
+[  960.093040] healthd: battery l=100 v=4346 t=28.3 h=2 st=5 fc=5631000 chg=u
+[  960.111708] healthd: battery l=100 v=4346 t=28.3 h=2 st=5 fc=5631000 chg=u
+[  960.599015] healthd: battery l=100 v=4346 t=28.3 h=2 st=5 fc=5631000 chg=u
+[  960.888442] android_work: sent uevent USB_STATE=CONNECTED
+[  960.900949] healthd: battery l=100 v=4346 t=28.3 h=2 st=5 fc=5631000 chg=u
+[  961.026538] android_work: sent uevent USB_STATE=CONFIGURED
+[  961.037040] healthd: battery l=100 v=4346 t=28.3 h=2 st=5 fc=5631000 chg=u
+[  963.868249] healthd: battery l=100 v=4346 t=28.3 h=2 st=5 fc=5631000 chg=u
+[  963.885526] healthd: battery l=100 v=4346 t=28.3 h=2 st=5 fc=5631000 chg=u
+[  974.107387] healthd: battery l=100 v=4347 t=28.3 h=2 st=5 fc=5631000 chg=u
+[  974.125585] healthd: battery l=100 v=4347 t=28.3 h=2 st=5 fc=5631000 chg=u
+[  984.347618] healthd: battery l=100 v=4347 t=28.3 h=2 st=5 fc=5631000 chg=u
+[  984.364883] healthd: battery l=100 v=4347 t=28.3 h=2 st=5 fc=5631000 chg=u
+[  988.490117] healthd: battery l=100 v=4346 t=28.2 h=2 st=5 fc=5631000 chg=u
+[  990.010306] healthd: battery l=100 v=4346 t=28.2 h=2 st=5 fc=5631000 chg=u
+[  990.027400] healthd: battery l=100 v=4346 t=28.2 h=2 st=5 fc=5631000 chg=u
+[  994.587957] healthd: battery l=100 v=4346 t=28.2 h=2 st=5 fc=5631000 chg=u
+[  994.605183] healthd: battery l=100 v=4346 t=28.2 h=2 st=5 fc=5631000 chg=u
+[ 1004.827662] healthd: battery l=100 v=4347 t=28.2 h=2 st=5 fc=5631000 chg=u
+[ 1004.846320] healthd: battery l=100 v=4347 t=28.2 h=2 st=5 fc=5631000 chg=u
+[ 1015.068176] healthd: battery l=100 v=4347 t=28.2 h=2 st=5 fc=5631000 chg=u
+[ 1015.085450] healthd: battery l=100 v=4347 t=28.2 h=2 st=5 fc=5631000 chg=u
+[ 1017.519042] gslX680 go to active
+[ 1017.522828] \x1b[0m[DISP WRN]\x1b[0m: [disp_mgr_protect_reg_for_rcq:1039]: [70D[70C[0mNULL hdl!
+[ 1017.522882] \x1b[0m[DISP WRN]\x1b[0m: [disp_mgr_protect_reg_for_rcq:1039]: [70D[70C[0mNULL hdl!
+[ 1017.522943] disp_runtime_resume
+[ 1017.522990] \x1b[0m[DISP WRN]\x1b[0m: [disp_register_irq:0498]: [70D[70C[0mirq for 0 already registered
+[ 1017.523735] \x1b[0m[DISP WRN]\x1b[0m: [de_top_set_de2tcon_mux:0177]: [70D[70C[0mtcon 1
+[ 1017.526076] \x1b[0m[DISP WRN]\x1b[0m: [de_smbl_enable_ahb_read:0554]: [70D[70C[0mde_smbl_enable_ahb_read=1
+[ 1017.526105] \x1b[0m[DISP WRN]\x1b[0m: [de_dci_enable_ahb_read:0748]: [70D[70C[0mde_dci_enable_ahb_read=1
+[ 1017.526210] \x1b[0m[DISP WRN]\x1b[0m: [lcd_clk_config:0964]: [70D[70C[0mlcd 1, clk:tcon_clk(420000000),dclk(70000000) dsi_rate(70000000)
+ 
+[ 1017.526224] \x1b[0m[DISP WRN]\x1b[0m: [lcd_clk_config:0966]: [70D[70C[0mclk real:tcon_clk(420000000),dclk(105000000) dsi_rate(150000000)
+[ 1017.558215] IOCTL PRIVATE
+[ 1017.558245] android_priv_cmd: Android private cmd "SETSUSPENDMODE 0" on wlan0
+[ 1017.558269] >>> rwnx_send_me_set_lp_level()
+[ 1017.558271] rwnx_send_me_set_lp_level 0 1 
+[ 1017.558595] set suspend mode 0
+[ 1017.561264] >>> rwnx_cfg80211_scan()
+[ 1017.561290] >>> rwnx_send_scanu_req()
+[ 1017.574613] sc7a20_delay_store: sc7a20 delay 66
+[ 1017.577317] sc7a20_enable_store: buf=1
+[ 1017.577343] enable_sensor: sc7a20_CTRL_PWRON
+[ 1017.577914] enable_sensor: sc7a20 delay 66
+[ 1017.861799] >>> rwnx_rx_scanu_start_cfm()
+[ 1018.036590] disp_runtime_resume finish
+[ 1019.890225] healthd: battery l=100 v=4323 t=28.5 h=2 st=5 fc=5631000 chg=u
+[ 1023.438481] type=1400 audit(1788104595.124:291): avc:  denied  { dac_read_search } for  comm="tee_supplicant" capability=2  scontext=u:r:tee:s0 tcontext=u:r:tee:s0 tclass=capability permissive=0
+[ 1023.443534] type=1400 audit(1788104595.128:292): avc:  denied  { dac_read_search } for  comm="tee_supplicant" capability=2  scontext=u:r:tee:s0 tcontext=u:r:tee:s0 tclass=capability permissive=0
+[ 1023.446078] type=1400 audit(1788104595.132:293): avc:  denied  { dac_read_search } for  comm="tee_supplicant" capability=2  scontext=u:r:tee:s0 tcontext=u:r:tee:s0 tclass=capability permissive=0
+[ 1023.451117] type=1400 audit(1788104595.136:294): avc:  denied  { dac_read_search } for  comm="tee_supplicant" capability=2  scontext=u:r:tee:s0 tcontext=u:r:tee:s0 tclass=capability permissive=0
+[ 1023.458259] type=1400 audit(1788104595.144:295): avc:  denied  { dac_read_search } for  comm="tee_supplicant" capability=2  scontext=u:r:tee:s0 tcontext=u:r:tee:s0 tclass=capability permissive=0
+[ 1023.464243] audit: audit_lost=158 audit_rate_limit=5 audit_backlog_limit=64
+[ 1023.464264] audit: rate limit exceeded
+[ 1025.310971] healthd: battery l=100 v=4282 t=28.7 h=2 st=5 fc=5631000 chg=u
+[ 1025.329802] healthd: battery l=100 v=4282 t=28.7 h=2 st=5 fc=5631000 chg=u
+[ 1030.325193] servicemanager: Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+[ 1030.332025] servicemanager: Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+[ 1031.249568] type=1400 audit(1788104602.936:309): avc:  denied  { read } for  comm="binder:992_3" name="u:object_r:vendor_default_prop:s0" dev="tmpfs" ino=374 scontext=u:r:cameraserver:s0 tcontext=u:object_r:vendor_default_prop:s0 tclass=file permissive=0
+[ 1031.263722] type=1400 audit(1788104602.948:310): avc:  denied  { read } for  comm="provider@2.4-aw" name="u:object_r:default_prop:s0" dev="tmpfs" ino=156 scontext=u:r:hal_camera_default:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+[ 1031.268152] type=1400 audit(1788104602.952:311): avc:  denied  { read } for  comm="provider@2.4-aw" name="u:object_r:default_prop:s0" dev="tmpfs" ino=156 scontext=u:r:hal_camera_default:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+[ 1031.514331] sunxi:VE:[INFO]: 913 enable_cedar_hw_clk(): 
+[ 1031.525733] type=1400 audit(1788104603.212:312): avc:  denied  { read } for  comm="provider@2.4-aw" name="u:object_r:default_prop:s0" dev="tmpfs" ino=156 scontext=u:r:hal_camera_default:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+[ 1031.529789] sunxi:vin:[INFO]: camera is on, close dfs
+[ 1031.538729] healthd: battery l=100 v=4264 t=28.9 h=2 st=5 fc=5631000 chg=u
+[ 1031.589457] sunxi:vin:[ERR]: sensor query dv timings error!
+[ 1031.714749] type=1400 audit(1788104603.400:313): avc:  denied  { read } for  comm="provider@2.4-aw" name="u:object_r:default_prop:s0" dev="tmpfs" ino=156 scontext=u:r:hal_camera_default:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+[ 1031.719472] sunxi:vin:[INFO]: camera is on, close dfs
+[ 1031.720263] sunxi:vin:[ERR]: sensor query dv timings error!
+[ 1031.726861] healthd: battery l=100 v=4264 t=28.9 h=2 st=5 fc=5631000 chg=u
+[ 1031.758485] servicemanager: Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+[ 1031.807226] servicemanager: Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+[ 1032.379400] sc7a20_delay_store: sc7a20 delay 66
+[ 1035.564033] healthd: battery l=100 v=4284 t=28.7 h=2 st=5 fc=5631000 chg=u
+[ 1035.591722] healthd: battery l=100 v=4284 t=28.7 h=2 st=5 fc=5631000 chg=u
+[ 1035.950792] sunxi:vin:[INFO]: camera is off, open dfs
+[ 1035.962682] healthd: battery l=100 v=4291 t=28.8 h=2 st=5 fc=5631000 chg=u
+[ 1035.978693] sunxi:vin:[INFO]: camera is off, open dfs
+[ 1035.989525] healthd: battery l=100 v=4291 t=28.8 h=2 st=5 fc=5631000 chg=u
+[ 1036.013108] type=1400 audit(1788104607.700:314): avc:  denied  { read } for  comm="binder:992_3" name="u:object_r:vendor_default_prop:s0" dev="tmpfs" ino=374 scontext=u:r:cameraserver:s0 tcontext=u:object_r:vendor_default_prop:s0 tclass=file permissive=0
+[ 1036.013751] type=1400 audit(1788104607.700:315): avc:  denied  { read } for  comm="provider@2.4-aw" name="u:object_r:default_prop:s0" dev="tmpfs" ino=156 scontext=u:r:hal_camera_default:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+[ 1036.014180] type=1400 audit(1788104607.700:316): avc:  denied  { read } for  comm="provider@2.4-aw" name="u:object_r:default_prop:s0" dev="tmpfs" ino=156 scontext=u:r:hal_camera_default:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+[ 1036.045993] type=1400 audit(1788104607.732:317): avc:  denied  { read } for  comm="provider@2.4-aw" name="u:object_r:default_prop:s0" dev="tmpfs" ino=156 scontext=u:r:hal_camera_default:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+[ 1036.049763] sunxi:vin:[INFO]: camera is on, close dfs
+[ 1036.056589] healthd: battery l=100 v=4291 t=28.8 h=2 st=5 fc=5631000 chg=u
+[ 1036.108776] sunxi:vin:[ERR]: sensor query dv timings error!
+[ 1036.195447] type=1400 audit(1788104607.880:318): avc:  denied  { read } for  comm="provider@2.4-aw" name="u:object_r:default_prop:s0" dev="tmpfs" ino=156 scontext=u:r:hal_camera_default:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+[ 1036.199158] sunxi:vin:[INFO]: camera is on, close dfs
+[ 1036.199767] sunxi:vin:[ERR]: sensor query dv timings error!
+[ 1036.205879] healthd: battery l=100 v=4291 t=28.8 h=2 st=5 fc=5631000 chg=u
+[ 1037.564847] >>> rwnx_cfg80211_scan()
+[ 1037.564887] >>> rwnx_send_scanu_req()
+[ 1037.865538] >>> rwnx_rx_scanu_start_cfm()
+[ 1045.788339] healthd: battery l=100 v=4306 t=29.2 h=2 st=5 fc=5631000 chg=u
+[ 1045.806970] healthd: battery l=100 v=4306 t=29.2 h=2 st=5 fc=5631000 chg=u
+[ 1048.491246] healthd: battery l=100 v=4299 t=29.3 h=2 st=5 fc=5631000 chg=u
+[ 1049.149143] sc7a20_delay_store: sc7a20 delay 66
+[ 1049.230486] sc7a20_delay_store: sc7a20 delay 66
+[ 1049.406757] binder: release 5267:5296 transaction 241314 out, still active
+[ 1049.406821] binder_cleanup_transaction: 3 callbacks suppressed
+[ 1049.406825] binder: undelivered transaction 241422, process died.
+[ 1049.406904] binder: undelivered transaction 241510, process died.
+[ 1049.407519] binder: undelivered transaction 241442, process died.
+[ 1049.407557] binder: send failed reply for transaction 241454 to 992:1005
+[ 1049.407576] binder: undelivered transaction 241470, process died.
+[ 1049.778486] sunxi:vin:[INFO]: camera is off, open dfs
+[ 1049.789531] healthd: battery l=100 v=4258 t=29.2 h=2 st=5 fc=5631000 chg=u
+[ 1049.806320] sunxi:vin:[INFO]: camera is off, open dfs
+[ 1049.816955] binder: 992:5120 transaction failed 29189/-22, size 96-0 line 3191
+[ 1049.817215] healthd: battery l=100 v=4258 t=29.2 h=2 st=5 fc=5631000 chg=u
+[ 1049.823526] binder: 992:5120 transaction failed 29189/0, size 4-0 line 3122
+[ 1049.823558] binder: send failed reply for transaction 241314, target dead
+[ 1050.009786] healthd: battery l=100 v=4296 t=29.2 h=2 st=5 fc=5631000 chg=u
+[ 1050.028908] healthd: battery l=100 v=4296 t=29.3 h=2 st=5 fc=5631000 chg=u
+[ 1050.773053] binder: undelivered transaction 216883, process died.
+[ 1050.773087] binder: undelivered transaction 219256, process died.
+[ 1050.773094] binder: undelivered transaction 232079, process died.
+[ 1050.773099] binder: undelivered transaction 233668, process died.
+[ 1050.773137] binder: undelivered transaction 216886, process died.
+[ 1050.773143] binder: undelivered transaction 219259, process died.
+[ 1054.046982] servicemanager: Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+[ 1054.052994] servicemanager: Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+[ 1054.217007] type=1400 audit(1788104625.900:319): avc:  denied  { read } for  comm="binder:992_7" name="u:object_r:vendor_default_prop:s0" dev="tmpfs" ino=374 scontext=u:r:cameraserver:s0 tcontext=u:object_r:vendor_default_prop:s0 tclass=file permissive=0
+[ 1054.219132] type=1400 audit(1788104625.904:320): avc:  denied  { read } for  comm="HwBinder:823_3" name="u:object_r:default_prop:s0" dev="tmpfs" ino=156 scontext=u:r:hal_camera_default:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+[ 1054.220042] type=1400 audit(1788104625.904:321): avc:  denied  { read } for  comm="HwBinder:823_3" name="u:object_r:default_prop:s0" dev="tmpfs" ino=156 scontext=u:r:hal_camera_default:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+[ 1054.318930] type=1400 audit(1788104626.004:322): avc:  denied  { read } for  comm="HwBinder:823_3" name="u:object_r:default_prop:s0" dev="tmpfs" ino=156 scontext=u:r:hal_camera_default:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+[ 1054.326489] sunxi:vin:[INFO]: camera is on, close dfs
+[ 1054.345598] healthd: battery l=100 v=4271 t=29.4 h=2 st=5 fc=5631000 chg=u
+[ 1054.385471] sunxi:vin:[ERR]: sensor query dv timings error!
+[ 1054.495570] type=1400 audit(1788104626.180:323): avc:  denied  { read } for  comm="HwBinder:823_3" name="u:object_r:default_prop:s0" dev="tmpfs" ino=156 scontext=u:r:hal_camera_default:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+[ 1054.502438] sunxi:vin:[INFO]: camera is on, close dfs
+[ 1054.504608] sunxi:vin:[ERR]: sensor query dv timings error!
+[ 1054.514230] healthd: battery l=100 v=4271 t=29.4 h=2 st=5 fc=5631000 chg=u
+[ 1056.027705] healthd: battery l=100 v=4267 t=29.5 h=2 st=5 fc=5631000 chg=u
+[ 1056.057411] healthd: battery l=100 v=4293 t=29.5 h=2 st=5 fc=5631000 chg=u
+[ 1059.556499] sunxi:vin:[INFO]: camera is off, open dfs
+[ 1059.568323] healthd: battery l=100 v=4262 t=29.7 h=2 st=5 fc=5631000 chg=u
+[ 1059.588441] sunxi:vin:[INFO]: camera is off, open dfs
+[ 1059.597585] healthd: battery l=100 v=4262 t=29.7 h=2 st=5 fc=5631000 chg=u
+[ 1059.620391] type=1400 audit(1788104631.304:324): avc:  denied  { read } for  comm="binder:992_3" name="u:object_r:vendor_default_prop:s0" dev="tmpfs" ino=374 scontext=u:r:cameraserver:s0 tcontext=u:object_r:vendor_default_prop:s0 tclass=file permissive=0
+[ 1059.621403] type=1400 audit(1788104631.308:325): avc:  denied  { read } for  comm="HwBinder:823_1" name="u:object_r:default_prop:s0" dev="tmpfs" ino=156 scontext=u:r:hal_camera_default:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+[ 1059.621830] type=1400 audit(1788104631.308:326): avc:  denied  { read } for  comm="HwBinder:823_1" name="u:object_r:default_prop:s0" dev="tmpfs" ino=156 scontext=u:r:hal_camera_default:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+[ 1059.647660] type=1400 audit(1788104631.332:327): avc:  denied  { read } for  comm="provider@2.4-aw" name="u:object_r:default_prop:s0" dev="tmpfs" ino=156 scontext=u:r:hal_camera_default:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+[ 1059.650362] sunxi:vin:[INFO]: camera is on, close dfs
+[ 1059.651154] sunxi:vin:[INFO]: [gc02m1f_mipi]PWR_ON!
+[ 1059.657159] sunxi:vin:[INFO]: [gc02m1f_mipi]sensor_init
+[ 1059.657182] sensor_detect: gc02m1f_mipi enter 
+[ 1059.657480] sunxi:vin:[INFO]: [gc02m1f_mipi]sensor_detect: gc02m1f_mipi V4L2_IDENT_SENSOR = 0x2e0
+[ 1059.657709] sunxi:vin:[ERR]: sensor query dv timings error!
+[ 1059.659681] healthd: battery l=100 v=4262 t=29.7 h=2 st=5 fc=5631000 chg=u
+[ 1059.711298] type=1400 audit(1788104631.396:328): avc:  denied  { read } for  comm="provider@2.4-aw" name="u:object_r:default_prop:s0" dev="tmpfs" ino=156 scontext=u:r:hal_camera_default:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+[ 1059.715121] sunxi:vin:[INFO]: camera is on, close dfs
+[ 1059.715330] sunxi:vin:[INFO]: [gc02m1f_mipi]sensor_init
+[ 1059.715336] sensor_detect: gc02m1f_mipi enter 
+[ 1059.715765] sunxi:vin:[INFO]: [gc02m1f_mipi]sensor_detect: gc02m1f_mipi V4L2_IDENT_SENSOR = 0x2e0
+[ 1059.715856] sunxi:vin:[ERR]: sensor query dv timings error!
+[ 1059.723621] healthd: battery l=100 v=4262 t=29.7 h=2 st=5 fc=5631000 chg=u
+[ 1061.524020] sunxi:vin:[INFO]: camera is off, open dfs
+[ 1061.527985] sunxi:vin:[INFO]: [gc02m1f_mipi]PWR_OFF!
+[ 1061.532164] sunxi:vin:[INFO]: camera is off, open dfs
+[ 1061.532761] healthd: battery l=100 v=4294 t=29.4 h=2 st=5 fc=5631000 chg=u
+[ 1061.556104] healthd: battery l=100 v=4294 t=29.4 h=2 st=5 fc=5631000 chg=u
+[ 1061.561036] type=1400 audit(1788104633.248:329): avc:  denied  { read } for  comm="binder:992_5" name="u:object_r:vendor_default_prop:s0" dev="tmpfs" ino=374 scontext=u:r:cameraserver:s0 tcontext=u:object_r:vendor_default_prop:s0 tclass=file permissive=0
+[ 1061.561667] type=1400 audit(1788104633.248:330): avc:  denied  { read } for  comm="provider@2.4-aw" name="u:object_r:default_prop:s0" dev="tmpfs" ino=156 scontext=u:r:hal_camera_default:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+[ 1061.562040] type=1400 audit(1788104633.248:331): avc:  denied  { read } for  comm="provider@2.4-aw" name="u:object_r:default_prop:s0" dev="tmpfs" ino=156 scontext=u:r:hal_camera_default:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+[ 1061.586721] type=1400 audit(1788104633.272:332): avc:  denied  { read } for  comm="provider@2.4-aw" name="u:object_r:default_prop:s0" dev="tmpfs" ino=156 scontext=u:r:hal_camera_default:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+[ 1061.590014] sunxi:vin:[INFO]: camera is on, close dfs
+[ 1061.596578] healthd: battery l=100 v=4294 t=29.4 h=2 st=5 fc=5631000 chg=u
+[ 1061.648729] sunxi:vin:[ERR]: sensor query dv timings error!
+[ 1061.732173] type=1400 audit(1788104633.416:333): avc:  denied  { read } for  comm="provider@2.4-aw" name="u:object_r:default_prop:s0" dev="tmpfs" ino=156 scontext=u:r:hal_camera_default:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+[ 1061.736041] sunxi:vin:[INFO]: camera is on, close dfs
+[ 1061.736659] sunxi:vin:[ERR]: sensor query dv timings error!
+[ 1061.742418] healthd: battery l=100 v=4294 t=29.4 h=2 st=5 fc=5631000 chg=u
+[ 1066.266744] healthd: battery l=100 v=4280 t=29.5 h=2 st=5 fc=5631000 chg=u
+[ 1066.288177] healthd: battery l=100 v=4280 t=29.5 h=2 st=5 fc=5631000 chg=u
+[ 1070.045871] sc7a20_delay_store: sc7a20 delay 66
+[ 1071.207343] sunxi:vin:[INFO]: camera is off, open dfs
+[ 1071.223612] healthd: battery l=100 v=4253 t=29.9 h=2 st=5 fc=5631000 chg=u
+[ 1071.238365] sunxi:vin:[INFO]: camera is off, open dfs
+[ 1071.251804] healthd: battery l=100 v=4253 t=29.9 h=2 st=5 fc=5631000 chg=u
+[ 1076.507025] healthd: battery l=100 v=4323 t=29.5 h=2 st=5 fc=5631000 chg=u
+[ 1076.525904] healthd: battery l=100 v=4323 t=29.5 h=2 st=5 fc=5631000 chg=u
+[ 1077.565417] >>> rwnx_cfg80211_scan()
+[ 1077.565442] >>> rwnx_send_scanu_req()
+[ 1077.866726] >>> rwnx_rx_scanu_start_cfm()
+[ 1079.762739] type=1400 audit(1788104651.448:334): avc:  denied  { getattr } for  comm="df" path="/system_dlkm" dev="dm-1" ino=2 scontext=u:r:shell:s0 tcontext=u:object_r:system_dlkm_file:s0 tclass=dir permissive=0
+[ 1079.763496] type=1400 audit(1788104651.448:335): avc:  denied  { getattr } for  comm="df" path="/data_mirror" dev="tmpfs" ino=1 scontext=u:r:shell:s0 tcontext=u:object_r:mirror_data_file:s0 tclass=dir permissive=0
+[ 1079.923854] type=1400 audit(1788104651.608:336): avc:  denied  { syslog_read } for  comm="dmesg" scontext=u:r:shell:s0 tcontext=u:r:kernel:s0 tclass=system permissive=0
+[ 1080.291567] type=1400 audit(1788104651.976:337): avc:  denied  { search } for  comm="ip" name="net" dev="dm-43" ino=51 scontext=u:r:shell:s0 tcontext=u:object_r:net_data_file:s0 tclass=dir permissive=0
+[ 1086.747653] healthd: battery l=100 v=4323 t=29.6 h=2 st=5 fc=5631000 chg=u
+[ 1086.766153] healthd: battery l=100 v=4323 t=29.6 h=2 st=5 fc=5631000 chg=u
+[ 1096.986973] healthd: battery l=100 v=4319 t=29.5 h=2 st=5 fc=5631000 chg=u
+[ 1097.006247] healthd: battery l=100 v=4319 t=29.5 h=2 st=5 fc=5631000 chg=u
+[ 1101.932254] aicwf_vendor_apf_set_filter
+[ 1106.533494] servicemanager: Could not find android.hardware.dumpstate.IDumpstateDevice/default in the VINTF manifest. No alternative instances declared in VINTF.
+[ 1106.606940] servicemanager: Could not find android.hardware.dumpstate.IDumpstateDevice/default in the VINTF manifest. No alternative instances declared in VINTF.
+[ 1106.642872] init: processing action (logd.logpersistd=clear && logd.logpersistd.enable=true) from (/system/etc/init/logcatd.rc:38)
+[ 1106.646501] servicemanager: Could not find android.hardware.dumpstate.IDumpstateDevice/default in the VINTF manifest. No alternative instances declared in VINTF.
+[ 1106.662588] init: starting service 'exec 33 (/system/bin/logcat -c -f /data/misc/logd/logcat -n 256)'...
+[ 1106.673614] init: ... started service 'exec 33 (/system/bin/logcat -c -f /data/misc/logd/logcat -n 256)' has pid 5604
+[ 1106.673707] init: SVC_EXEC service 'exec 33 (/system/bin/logcat -c -f /data/misc/logd/logcat -n 256)' pid 5604 (uid 1036 gid 1007+0 context default) started; waiting...
+[ 1106.692275] binder: 5568:5595 transaction failed 29201/-1, size 0-0 line 3206
+[ 1106.692954] type=1400 audit(1788104678.376:338): avc:  denied  { call } for  comm=4173796E635461736B202331 scontext=u:r:system_app:s0 tcontext=u:r:hal_audio_default:s0 tclass=binder permissive=0
+[ 1106.694196] binder: 5568:5595 transaction failed 29201/-1, size 0-0 line 3206
+[ 1106.694374] type=1400 audit(1788104678.380:339): avc:  denied  { call } for  comm=4173796E635461736B202331 scontext=u:r:system_app:s0 tcontext=u:r:hal_audio_sysbta:s0 tclass=binder permissive=0
+[ 1106.699596] binder: 5568:5595 transaction failed 29201/-1, size 0-0 line 3206
+[ 1106.699871] type=1400 audit(1788104678.384:340): avc:  denied  { call } for  comm=4173796E635461736B202331 scontext=u:r:system_app:s0 tcontext=u:r:hal_graphics_composer_default:s0 tclass=binder permissive=0
+[ 1106.701400] binder: 5568:5595 transaction failed 29201/-1, size 0-0 line 3206
+[ 1106.701914] type=1400 audit(1788104678.388:341): avc:  denied  { call } for  comm=4173796E635461736B202331 scontext=u:r:system_app:s0 tcontext=u:r:hal_health_default:s0 tclass=binder permissive=0
+[ 1106.703389] binder: 5568:5595 transaction failed 29201/-1, size 0-0 line 3206
+[ 1106.703729] type=1400 audit(1788104678.388:342): avc:  denied  { call } for  comm=4173796E635461736B202331 scontext=u:r:system_app:s0 tcontext=u:r:hal_light_default:s0 tclass=binder permissive=0
+[ 1106.704691] binder: 5568:5595 transaction failed 29201/-1, size 0-0 line 3206
+[ 1106.704929] type=1400 audit(1788104678.392:343): avc:  denied  { call } for  comm=4173796E635461736B202331 scontext=u:r:system_app:s0 tcontext=u:r:hal_memtrack_default:s0 tclass=binder permissive=0
+[ 1106.706024] audit: audit_lost=171 audit_rate_limit=5 audit_backlog_limit=64
+[ 1106.706045] audit: rate limit exceeded
+[ 1106.706052] binder: 5568:5595 transaction failed 29201/-1, size 0-0 line 3206
+[ 1106.717117] binder: 5568:5595 transaction failed 29201/-1, size 0-0 line 3206
+[ 1106.718280] binder: 5568:5595 transaction failed 29201/-1, size 0-0 line 3206
+[ 1106.719553] binder: 5568:5595 transaction failed 29201/-1, size 0-0 line 3206
+[ 1106.721737] init: Service 'exec 33 (/system/bin/logcat -c -f /data/misc/logd/logcat -n 256)' (pid 5604) exited with status 0 waiting took 0.054000 seconds
+[ 1106.721792] init: Sending signal 9 to service 'exec 33 (/system/bin/logcat -c -f /data/misc/logd/logcat -n 256)' (pid 5604) process group...
+[ 1106.722342] libprocessgroup: Removed cgroup /sys/fs/cgroup/uid_1036/pid_5604
+[ 1106.922192] vndksupport: Loading libutils.so from current namespace instead of sphal namespace.
+[ 1107.024335] servicemanager: Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+[ 1107.029468] servicemanager: Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+[ 1107.050537] SELinux: avc:  denied  { find } for pid=5568 uid=1000 name=suspend_control scontext=u:r:system_app:s0 tcontext=u:object_r:system_suspend_control_service:s0 tclass=service_manager permissive=0
+[ 1107.051160] SELinux: avc:  denied  { find } for pid=5568 uid=1000 name=suspend_control_internal scontext=u:r:system_app:s0 tcontext=u:object_r:system_suspend_control_internal_service:s0 tclass=service_manager permissive=0
+[ 1107.066853] SELinux: avc:  denied  { find } for pid=5568 uid=1000 name=tracing.proxy scontext=u:r:system_app:s0 tcontext=u:object_r:tracingproxy_service:s0 tclass=service_manager permissive=0
+[ 1107.228735] healthd: battery l=100 v=4286 t=29.7 h=2 st=5 fc=5631000 chg=u
+[ 1107.252727] servicemanager: Could not find android.hardware.dumpstate.IDumpstateDevice/default in the VINTF manifest. No alternative instances declared in VINTF.
+[ 1107.255845] healthd: battery l=100 v=4286 t=29.7 h=2 st=5 fc=5631000 chg=u
+[ 1108.493149] healthd: battery l=100 v=4324 t=29.5 h=2 st=5 fc=5631000 chg=u
+[ 1110.009183] healthd: battery l=100 v=4296 t=29.7 h=2 st=5 fc=5631000 chg=u
+[ 1110.026868] healthd: battery l=100 v=4296 t=29.7 h=2 st=5 fc=5631000 chg=u
+[ 1117.469683] healthd: battery l=100 v=4295 t=29.6 h=2 st=5 fc=5631000 chg=u
+[ 1117.487699] healthd: battery l=100 v=4295 t=29.6 h=2 st=5 fc=5631000 chg=u
+[ 1120.606679] servicemanager: Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+[ 1120.612314] servicemanager: Found android.hardware.graphics.allocator.IAllocator/default in device VINTF manifest.
+[ 1127.714989] healthd: battery l=100 v=4284 t=29.5 h=2 st=5 fc=5631000 chg=u
+[ 1127.734322] healthd: battery l=100 v=4284 t=29.5 h=2 st=5 fc=5631000 chg=u
+[ 1135.487712] servicemanager: Could not find android.hardware.dumpstate.IDumpstateDevice/default in the VINTF manifest. No alternative instances declared in VINTF.
+[ 1135.543079] servicemanager: Could not find android.hardware.dumpstate.IDumpstateDevice/default in the VINTF manifest. No alternative instances declared in VINTF.
+[ 1135.571375] init: processing action (logd.logpersistd=clear && logd.logpersistd.enable=true) from (/system/etc/init/logcatd.rc:38)
+[ 1135.573492] servicemanager: Could not find android.hardware.dumpstate.IDumpstateDevice/default in the VINTF manifest. No alternative instances declared in VINTF.
+[ 1135.586217] init: starting service 'exec 34 (/system/bin/logcat -c -f /data/misc/logd/logcat -n 256)'...
+[ 1135.595129] init: ... started service 'exec 34 (/system/bin/logcat -c -f /data/misc/logd/logcat -n 256)' has pid 5704
+[ 1135.595266] init: SVC_EXEC service 'exec 34 (/system/bin/logcat -c -f /data/misc/logd/logcat -n 256)' pid 5704 (uid 1036 gid 1007+0 context default) started; waiting...
+[ 1135.620397] binder_transaction: 10 callbacks suppressed
+[ 1135.620413] binder: 5568:5595 transaction failed 29201/-1, size 0-0 line 3206
+[ 1135.620778] type=1400 audit(1788104707.304:358): avc:  denied  { call } for  comm=4173796E635461736B202331 scontext=u:r:system_app:s0 tcontext=u:r:hal_audio_default:s0 tclass=binder permissive=0
+[ 1135.621796] binder: 5568:5595 transaction failed 29201/-1, size 0-0 line 3206
+[ 1135.621968] type=1400 audit(1788104707.308:359): avc:  denied  { call } for  comm=4173796E635461736B202331 scontext=u:r:system_app:s0 tcontext=u:r:hal_audio_sysbta:s0 tclass=binder permissive=0
+[ 1135.623780] binder: 5568:5595 transaction failed 29201/-1, size 0-0 line 3206
+[ 1135.624108] type=1400 audit(1788104707.308:360): avc:  denied  { call } for  comm=4173796E635461736B202331 scontext=u:r:system_app:s0 tcontext=u:r:hal_graphics_composer_default:s0 tclass=binder permissive=0
+[ 1135.625265] binder: 5568:5595 transaction failed 29201/-1, size 0-0 line 3206
+[ 1135.625500] type=1400 audit(1788104707.312:361): avc:  denied  { call } for  comm=4173796E635461736B202331 scontext=u:r:system_app:s0 tcontext=u:r:hal_health_default:s0 tclass=binder permissive=0
+[ 1135.626836] binder: 5568:5595 transaction failed 29201/-1, size 0-0 line 3206
+[ 1135.627054] type=1400 audit(1788104707.312:362): avc:  denied  { call } for  comm=4173796E635461736B202331 scontext=u:r:system_app:s0 tcontext=u:r:hal_light_default:s0 tclass=binder permissive=0
+[ 1135.628364] audit: audit_lost=185 audit_rate_limit=5 audit_backlog_limit=64
+[ 1135.628389] audit: rate limit exceeded
+[ 1135.628397] binder: 5568:5595 transaction failed 29201/-1, size 0-0 line 3206
+[ 1135.630158] binder: 5568:5595 transaction failed 29201/-1, size 0-0 line 3206
+[ 1135.633947] init: Service 'exec 34 (/system/bin/logcat -c -f /data/misc/logd/logcat -n 256)' (pid 5704) exited with status 0 waiting took 0.042000 seconds
+[ 1135.633999] init: Sending signal 9 to service 'exec 34 (/system/bin/logcat -c -f /data/misc/logd/logcat -n 256)' (pid 5704) process group...
+[ 1135.634556] libprocessgroup: Removed cgroup /sys/fs/cgroup/uid_1036/pid_5704
+[ 1135.642300] binder: 5568:5595 transaction failed 29201/-1, size 0-0 line 3206
+[ 1135.643146] binder: 5568:5595 transaction failed 29201/-1, size 0-0 line 3206
+[ 1135.643747] binder: 5568:5595 transaction failed 29201/-1, size 0-0 line 3206
+[ 1135.815758] servicemanager: Could not find android.hardware.dumpstate.IDumpstateDevice/default in the VINTF manifest. No alternative instances declared in VINTF.
+[ 1135.886528] SELinux: avc:  denied  { find } for pid=5568 uid=1000 name=suspend_control scontext=u:r:system_app:s0 tcontext=u:object_r:system_suspend_control_service:s0 tclass=service_manager permissive=0
+[ 1135.887351] SELinux: avc:  denied  { find } for pid=5568 uid=1000 name=suspend_control_internal scontext=u:r:system_app:s0 tcontext=u:object_r:system_suspend_control_internal_service:s0 tclass=service_manager permissive=0
+[ 1135.905248] SELinux: avc:  denied  { find } for pid=5568 uid=1000 name=tracing.proxy scontext=u:r:system_app:s0 tcontext=u:object_r:tracingproxy_service:s0 tclass=service_manager permissive=0
+[ 1137.950693] healthd: battery l=100 v=4300 t=29.6 h=2 st=5 fc=5631000 chg=u
+[ 1137.968093] healthd: battery l=100 v=4300 t=29.6 h=2 st=5 fc=5631000 chg=u
+[ 1138.450552] healthd: battery l=100 v=4300 t=29.6 h=2 st=5 fc=5631000 chg=u
+[ 1139.843060] healthd: battery l=100 v=4312 t=29.5 h=2 st=5 fc=5631000 chg=u
+[ 1148.079168] init: service 'adbd' requested start, but it is already running (flags: 132)
+[ 1148.079223] init: Control message: Processed ctl.start for 'adbd' from pid: 1177 (system_server)
+[ 1148.188426] healthd: battery l=100 v=4319 t=29.5 h=2 st=5 fc=5631000 chg=u
+[ 1148.208585] healthd: battery l=100 v=4319 t=29.5 h=2 st=5 fc=5631000 chg=u
+[ 1150.575432] init: starting service 'mdnsd'...
+[ 1150.576278] init: Created socket '/dev/socket/mdnsd', mode 660, user 1020, group 3003
+[ 1150.587339] init: ... started service 'mdnsd' has pid 5715
+[ 1150.587415] init: Control message: Processed ctl.start for 'mdnsd' from pid: 5221 (/apex/com.android.adbd/bin/adbd --root_seclabel=u:r:su:s0)
+[ 1150.593310] init: service 'adbd' requested start, but it is already running (flags: 132)
+[ 1150.593370] init: Control message: Processed ctl.start for 'adbd' from pid: 1177 (system_server)
+[ 1150.626913] servicemanager: Could not find android.hardware.dumpstate.IDumpstateDevice/default in the VINTF manifest. No alternative instances declared in VINTF.
+[ 1150.634022] >>> rwnx_rx_me_tx_credits_update_ind()
+[ 1157.574797] >>> rwnx_cfg80211_scan()
+[ 1157.574823] >>> rwnx_send_scanu_req()
+[ 1157.875451] >>> rwnx_rx_scanu_start_cfm()
+[ 1158.431317] healthd: battery l=100 v=4298 t=29.6 h=2 st=5 fc=5631000 chg=u
+[ 1158.449406] healthd: battery l=100 v=4298 t=29.6 h=2 st=5 fc=5631000 chg=u
+[ 1160.510246] servicemanager: Could not find android.hardware.dumpstate.IDumpstateDevice/default in the VINTF manifest. No alternative instances declared in VINTF.
+[ 1160.537956] init: processing action (logd.logpersistd=clear && logd.logpersistd.enable=true) from (/system/etc/init/logcatd.rc:38)
+[ 1160.539750] servicemanager: Could not find android.hardware.dumpstate.IDumpstateDevice/default in the VINTF manifest. No alternative instances declared in VINTF.
+[ 1160.555402] init: starting service 'exec 35 (/system/bin/logcat -c -f /data/misc/logd/logcat -n 256)'...
+[ 1160.564785] init: ... started service 'exec 35 (/system/bin/logcat -c -f /data/misc/logd/logcat -n 256)' has pid 5734
+[ 1160.564882] init: SVC_EXEC service 'exec 35 (/system/bin/logcat -c -f /data/misc/logd/logcat -n 256)' pid 5734 (uid 1036 gid 1007+0 context default) started; waiting...
+[ 1160.608397] init: Service 'exec 35 (/system/bin/logcat -c -f /data/misc/logd/logcat -n 256)' (pid 5734) exited with status 0 waiting took 0.048000 seconds
+[ 1160.608467] init: Sending signal 9 to service 'exec 35 (/system/bin/logcat -c -f /data/misc/logd/logcat -n 256)' (pid 5734) process group...
+[ 1160.609320] libprocessgroup: Removed cgroup /sys/fs/cgroup/uid_1036/pid_5734
+[ 1160.618573] binder_transaction: 10 callbacks suppressed
+[ 1160.618596] binder: 5568:5717 transaction failed 29201/-1, size 0-0 line 3206
+[ 1160.620879] type=1400 audit(1788104732.304:378): avc:  denied  { call } for  comm=4173796E635461736B202336 scontext=u:r:system_app:s0 tcontext=u:r:hal_audio_default:s0 tclass=binder permissive=0
+[ 1160.631928] binder: 5568:5717 transaction failed 29201/-1, size 0-0 line 3206
+[ 1160.632295] type=1400 audit(1788104732.316:379): avc:  denied  { call } for  comm=4173796E635461736B202336 scontext=u:r:system_app:s0 tcontext=u:r:hal_audio_sysbta:s0 tclass=binder permissive=0
+[ 1160.650908] binder: 5568:5717 transaction failed 29201/-1, size 0-0 line 3206
+[ 1160.651237] type=1400 audit(1788104732.336:380): avc:  denied  { call } for  comm=4173796E635461736B202336 scontext=u:r:system_app:s0 tcontext=u:r:hal_graphics_composer_default:s0 tclass=binder permissive=0
+[ 1160.653203] binder: 5568:5717 transaction failed 29201/-1, size 0-0 line 3206
+[ 1160.654088] type=1400 audit(1788104732.340:381): avc:  denied  { call } for  comm=4173796E635461736B202336 scontext=u:r:system_app:s0 tcontext=u:r:hal_health_default:s0 tclass=binder permissive=0
+[ 1160.657539] binder: 5568:5717 transaction failed 29201/-1, size 0-0 line 3206
+[ 1160.659222] audit: audit_lost=200 audit_rate_limit=5 audit_backlog_limit=64
+[ 1160.659245] audit: rate limit exceeded
+[ 1160.659256] binder: 5568:5717 transaction failed 29201/-1, size 0-0 line 3206
+[ 1160.660377] binder: 5568:5717 transaction failed 29201/-1, size 0-0 line 3206
+[ 1160.662930] type=1400 audit(1788104732.344:382): avc:  denied  { call } for  comm=4173796E635461736B202336 scontext=u:r:system_app:s0 tcontext=u:r:hal_light_default:s0 tclass=binder permissive=0
+[ 1160.687306] binder: 5568:5717 transaction failed 29201/-1, size 0-0 line 3206
+[ 1160.688286] binder: 5568:5717 transaction failed 29201/-1, size 0-0 line 3206
+[ 1160.689337] binder: 5568:5717 transaction failed 29201/-1, size 0-0 line 3206
+[ 1160.780506] servicemanager: Could not find android.hardware.dumpstate.IDumpstateDevice/default in the VINTF manifest. No alternative instances declared in VINTF.
+[ 1160.815928] servicemanager: Could not find android.hardware.dumpstate.IDumpstateDevice/default in the VINTF manifest. No alternative instances declared in VINTF.
+[ 1160.974912] SELinux: avc:  denied  { find } for pid=5568 uid=1000 name=suspend_control scontext=u:r:system_app:s0 tcontext=u:object_r:system_suspend_control_service:s0 tclass=service_manager permissive=0
+[ 1160.975371] SELinux: avc:  denied  { find } for pid=5568 uid=1000 name=suspend_control_internal scontext=u:r:system_app:s0 tcontext=u:object_r:system_suspend_control_internal_service:s0 tclass=service_manager permissive=0
+[ 1160.992047] SELinux: avc:  denied  { find } for pid=5568 uid=1000 name=tracing.proxy scontext=u:r:system_app:s0 tcontext=u:object_r:tracingproxy_service:s0 tclass=service_manager permissive=0
+[ 1165.288114] servicemanager: Could not find android.hardware.dumpstate.IDumpstateDevice/default in the VINTF manifest. No alternative instances declared in VINTF.
+[ 1168.492377] healthd: battery l=100 v=4315 t=29.5 h=2 st=5 fc=5631000 chg=u
+[ 1168.670727] healthd: battery l=100 v=4315 t=29.5 h=2 st=5 fc=5631000 chg=u
+[ 1168.688606] healthd: battery l=100 v=4315 t=29.5 h=2 st=5 fc=5631000 chg=u
+[ 1170.009713] healthd: battery l=100 v=4307 t=29.6 h=2 st=5 fc=5631000 chg=u
+[ 1170.029251] healthd: battery l=100 v=4307 t=29.6 h=2 st=5 fc=5631000 chg=u
+[ 1178.907813] healthd: battery l=100 v=4304 t=29.6 h=2 st=5 fc=5631000 chg=u
+[ 1178.925431] healthd: battery l=100 v=4304 t=29.6 h=2 st=5 fc=5631000 chg=u
+[ 1189.147132] healthd: battery l=100 v=4325 t=29.5 h=2 st=5 fc=5631000 chg=u
+[ 1189.164985] healthd: battery l=100 v=4325 t=29.5 h=2 st=5 fc=5631000 chg=u
+[ 1196.160850] init: Service 'adbd' (pid 5221) exited with status 0
+[ 1196.160899] init: Sending signal 9 to service 'adbd' (pid 5221) process group...
+[ 1196.161407] libprocessgroup: Removed cgroup /sys/fs/cgroup/uid_0/pid_5221
+[ 1196.162670] init: starting service 'adbd'...
+[ 1196.163504] init: Created socket '/dev/socket/adbd', mode 660, user 1000, group 1000
+[ 1196.170615] init: ... started service 'adbd' has pid 5754
+[ 1196.217026] android_work: sent uevent USB_STATE=DISCONNECTED
+[ 1196.218199] android_work: did not send uevent (0 0 0000000000000000)
+[ 1196.218383] read descriptors
+[ 1196.218403] read strings
+[ 1196.224010] healthd: battery l=100 v=4300 t=29.6 h=2 st=5 fc=5631000 chg=u
+[ 1196.242358] healthd: battery l=100 v=4300 t=29.6 h=2 st=5 fc=5631000 chg=u
+[ 1196.732590] healthd: battery l=100 v=4300 t=29.6 h=2 st=5 fc=5631000 chg=u
+[ 1197.019409] android_work: sent uevent USB_STATE=CONNECTED
+[ 1197.028579] healthd: battery l=100 v=4300 t=29.6 h=2 st=5 fc=5631000 chg=u
+[ 1197.156234] android_work: sent uevent USB_STATE=CONFIGURED
+[ 1197.168694] healthd: battery l=100 v=4316 t=29.5 h=2 st=5 fc=5631000 chg=u
+[ 1199.387536] healthd: battery l=100 v=4325 t=29.5 h=2 st=5 fc=5631000 chg=u
+[ 1199.405632] healthd: battery l=100 v=4325 t=29.5 h=2 st=5 fc=5631000 chg=u
+[ 1209.627135] healthd: battery l=100 v=4301 t=29.6 h=2 st=5 fc=5631000 chg=u
+[ 1209.652701] healthd: battery l=100 v=4301 t=29.6 h=2 st=5 fc=5631000 chg=u
+[ 1219.866678] healthd: battery l=100 v=4322 t=29.5 h=2 st=5 fc=5631000 chg=u
+[ 1219.885259] healthd: battery l=100 v=4322 t=29.5 h=2 st=5 fc=5631000 chg=u
+[ 1228.493117] healthd: battery l=100 v=4322 t=29.5 h=2 st=5 fc=5631000 chg=u
+[ 1230.010038] healthd: battery l=100 v=4306 t=29.6 h=2 st=5 fc=5631000 chg=u
+[ 1230.029145] healthd: battery l=100 v=4306 t=29.6 h=2 st=5 fc=5631000 chg=u
+[ 1230.110650] healthd: battery l=100 v=4306 t=29.6 h=2 st=5 fc=5631000 chg=u
+[ 1230.127418] healthd: battery l=100 v=4306 t=29.6 h=2 st=5 fc=5631000 chg=u
+[ 1240.346537] healthd: battery l=100 v=4318 t=29.5 h=2 st=5 fc=5631000 chg=u
+[ 1240.363105] healthd: battery l=100 v=4318 t=29.5 h=2 st=5 fc=5631000 chg=u
+[ 1247.252472] healthd: battery l=100 v=4320 t=29.6 h=2 st=5 fc=5631000 chg=u
+[ 1250.587382] healthd: battery l=100 v=4322 t=29.6 h=2 st=5 fc=5631000 chg=u
+[ 1250.605949] healthd: battery l=100 v=4322 t=29.6 h=2 st=5 fc=5631000 chg=u

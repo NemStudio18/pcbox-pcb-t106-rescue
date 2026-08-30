@@ -1,0 +1,147 @@
+Module                  Size  Used by
+snd_aloop              40960  0 
+sunxi_cpufreq_clamp    16384  0 
+aic8800_fdrv          417792  0 
+standby_debug          16384  0 
+virtual                20480  0 
+sunxi_ve               57344  2 
+sunxi_sysinfo          20480  0 
+sunxi_lradc            24576  0 
+ppp_synctty            45056  0 
+ppp_async              53248  0 
+ps8743                 16384  0 
+tcpci_husb311          24576  0 
+option                 57344  0 
+usb_wwan               28672  1 option
+usbserial              73728  2 option,usb_wwan
+sunxi_usbc             49152  0 
+sunxi_usb_udc         196608  1 sunxi_usbc
+dwc3_sunxi_plat        40960  0 
+phy_sunxi_plat         20480  2 
+ohci_sunxi             32768  1 sunxi_usbc
+ohci_pci               20480  0 
+ehci_sunxi             28672  1 sunxi_usbc
+sunxi_hci              61440  3 dwc3_sunxi_plat,ohci_sunxi,ehci_sunxi
+ohci_hcd               61440  2 ohci_sunxi,ohci_pci
+deinterlace           122880  0 
+g2d_sunxi             106496  3 
+sunxi_vibrator         16384  0 
+hall_sensor            20480  0 
+focaltech_touch_800x1280   106496  0 
+gslX680new           1302528  0 
+chipone               307200  0 
+focaltech_touch_1920x1200   159744  0 
+sc7a20                 24576  0 
+init_input             28672  3 sunxi_vibrator,gslX680new,sc7a20
+snd_soc_sunxi_machine    49152  0 
+snd_soc_ac107          90112  0 
+snd_soc_sunxi_i2s      69632  2 
+snd_soc_sunxi_codec_edp    24576  0 
+snd_soc_sunxi_internal_codec   106496  1 
+snd_soc_sunxi_aaudio    20480  2 
+snd_soc_sunxi_pcm      28672  2 snd_soc_sunxi_i2s,snd_soc_sunxi_aaudio
+snd_soc_sunxi_component_sfx    20480  0 
+snd_soc_sunxi_component_rxsync    24576  2 snd_soc_sunxi_i2s,snd_soc_sunxi_internal_codec
+snd_soc_sunxi_component_jack    28672  2 snd_soc_sunxi_machine,snd_soc_sunxi_internal_codec
+snd_soc_sunxi_common    45056  3 snd_soc_sunxi_machine,snd_soc_sunxi_i2s,snd_soc_sunxi_internal_codec
+vin_v4l2              380928  1 
+dw9714_act             16384  0 
+actuator               16384  1 dw9714_act
+imx319_mipi            28672  0 
+s5k5e8                 28672  0 
+ov5648f_mipi           24576  0 
+ov5648_mipi            24576  0 
+gc030a_mipi            28672  0 
+aic8800_btlpm          32768  0 
+gc02m2_mipi            28672  0 
+aic8800_bsp           106496  1 aic8800_fdrv
+gc5025f_mipi           24576  0 
+gc5035f_mipi           24576  0 
+gc5035_mipi            28672  0 
+gc8034_mipi            24576  0 
+ov8858_mipi            28672  0 
+ov13850_mipi           24576  0 
+gc02m1f_mipi           24576  0 
+gc2385_mipi            28672  0 
+gc05a2f_mipi           24576  0 
+gc05a2_mipi            28672  0 
+bf20a1_mipi            24576  0 
+ov5670f_mipi           24576  0 
+bf2257_mipi            24576  0 
+gc02m1_mipi            28672  0 
+ov02a10f_mipi          28672  0 
+ov5675_mipi            28672  0 
+ov5695_mipi            24576  0 
+ov8865_mipi            24576  0 
+vin_io                126976  29 vin_v4l2,dw9714_act,imx319_mipi,s5k5e8,ov5648f_mipi,ov5648_mipi,gc030a_mipi,gc02m2_mipi,gc5025f_mipi,gc5035f_mipi,gc5035_mipi,gc8034_mipi,ov8858_mipi,ov13850_mipi,gc02m1f_mipi,gc2385_mipi,gc05a2f_mipi,gc05a2_mipi,bf20a1_mipi,ov5670f_mipi,bf2257_mipi,gc02m1_mipi,ov02a10f_mipi,ov5675_mipi,ov5695_mipi,ov8865_mipi
+mali_kbase           1159168  43 
+pcie_sunxi_host        57344  0 
+sunxi_inno_combophy    28672  3 dwc3_sunxi_plat
+sunxi_rfkill           45056  2 aic8800_fdrv,aic8800_bsp
+sunxi_drm_heap         32768  0 [permanent]
+sunxi_dsufreq          24576  0 
+cpufreq_dt             24576  1 sunxi_dsufreq
+sunxi_mmc_host        274432  2 aic8800_bsp,sunxi_rfkill
+edp2                  196608  1 snd_soc_sunxi_codec_edp
+sunxi_dump             24576  1 cpufreq_dt
+disp                 3198976  8 edp2,sunxi_dump
+axp2202_usb_power      36864  2 sunxi_usbc,dwc3_sunxi_plat
+bnd_charger            16384  0 
+cqhci                  45056  1 sunxi_mmc_host
+sun50i_cpufreq_nvmem    24576  1 sunxi_dsufreq
+sunxi_addr             24576  1 aic8800_fdrv
+sunxi_thermal          24576  0 
+mac80211             1335296  0 
+axp2202_battery        53248  2 axp2202_usb_power,bnd_charger
+axp2101_i2c            16384  0 
+ccu_sun55iw3          106496  0 
+bmu_ext_i2c            16384  0 
+ccu_sun55iw3_displl    16384  0 
+ccu_sun55iw3_mcu       32768  0 
+ccu_sun55iw3_r         24576  0 
+pinctrl_sun55iw3       77824  8 [permanent]
+optee                  53248  3 
+ccu_sun55iw3_rtc       16384  0 
+pinctrl_sun55iw3_r     20480  9 [permanent]
+zram                   57344  2 
+sunxi_sid              40960  11 sunxi_ve,sunxi_sysinfo,snd_soc_sunxi_internal_codec,aic8800_bsp,mali_kbase,sunxi_mmc_host,disp,cqhci,sun50i_cpufreq_nvmem,sunxi_addr,sunxi_thermal
+pmu_ext_i2c            16384  0 
+cfg80211             1462272  2 aic8800_fdrv,mac80211
+axp2101                98304  2 axp2202_battery,axp2101_i2c
+axp2101_regulator      94208  59 
+axp2101_pek            28672  0 
+bmu_ext_core           24576  1 bmu_ext_i2c
+bmu_ext_regulator      16384  0 
+ccu_sunxi_ng          106496  51 ccu_sun55iw3,ccu_sun55iw3_displl,ccu_sun55iw3_mcu,ccu_sun55iw3_r,ccu_sun55iw3_rtc
+bootevent              24576  0 [permanent]
+cma_heap               24576  0 [permanent]
+dump_reg               32768  0 
+eta6973_charger_power    36864  0 
+fb                    106496  4 focaltech_touch_800x1280,chipone,focaltech_touch_1920x1200,disp
+i2c_dev                32768  0 
+irq_sun8i_nmi          16384  0 
+irq_sunxi_wakeupgen    16384  0 
+mmc_hsq                20480  1 sunxi_mmc_host
+nvmem_sunxi_sid        16384  0 
+pck600_domains         16384  0 
+pinctrl_sunxi          61440  86 pinctrl_sun55iw3,pinctrl_sun55iw3_r
+pm_domains             16384  0 
+pmu_ext_core           16384  1 pmu_ext_i2c
+pwm_sunxi              32768  1 
+pmu_ext_regulator      16384  8 
+spi_sunxi_ng           57344  0 
+rtc_sunxi              28672  1 
+sunxi_dma              45056  2 
+sunxi_iommu            45056  26 vin_io,disp
+sunxi_nsi              40960  0 
+sunxi_npd              28672  0 
+sunxi_mm               24576  0 
+sunxi_pd_test          16384  0 
+sunxi_uart             86016  0 
+sunxi_smc              16384  2 sunxi_drm_heap,sunxi_sid
+tee                    73728  4 optee
+sunxi_vendor_hooks     16384  0 [permanent]
+system_heap            28672  179 [permanent]
+twi_sunxi              61440  3 
+zsmalloc               57344  1 zram
+timer_sun50i           24576  0 

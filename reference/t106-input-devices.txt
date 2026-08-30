@@ -1,0 +1,42 @@
+add device 1: /dev/input/event5
+  name:     "sunxi-keyboard"
+  events:
+    KEY (0001): 0072  0073 
+  input props:
+    <none>
+add device 2: /dev/input/event4
+  name:     "MH248"
+  events:
+    KEY (0001): 008e  008f 
+  input props:
+    <none>
+add device 3: /dev/input/event3
+  name:     "gslX680"
+  events:
+    KEY (0001): 014a 
+    ABS (0003): 0030  : value 0, min 0, max 255, fuzz 0, flat 0, resolution 0
+                0032  : value 0, min 0, max 200, fuzz 0, flat 0, resolution 0
+                0035  : value 0, min 0, max 800, fuzz 0, flat 0, resolution 0
+                0036  : value 0, min 0, max 1280, fuzz 0, flat 0, resolution 0
+                0039  : value 0, min 0, max 11, fuzz 0, flat 0, resolution 0
+  input props:
+    INPUT_PROP_DIRECT
+add device 4: /dev/input/event2
+  name:     "sc7a20"
+  events:
+    REL (0002): 0000  0001  0002 
+  input props:
+    <none>
+add device 5: /dev/input/event1
+  name:     "audiocodec Headphones"
+  events:
+    KEY (0001): 0072  0073  00e2  0246 
+    SW  (0005): 0002  0004 
+  input props:
+    <none>
+add device 6: /dev/input/event0
+  name:     "axp2202-pek"
+  events:
+    KEY (0001): 0074 
+  input props:
+    <none>
