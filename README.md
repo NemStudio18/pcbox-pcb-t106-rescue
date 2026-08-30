@@ -3,6 +3,9 @@ permalink: /fr/
 ---
 # 🛠️ PCBOX PCB-T106 S10 (Allwinner A523) — Rescue & Unbrick Pack
 
+[![GitHub last commit](https://img.shields.io/github/last-commit/NemStudio18/pcbox-pcb-t106-rescue)](https://github.com/NemStudio18/pcbox-pcb-t106-rescue/commits/main) [![GitHub repo size](https://img.shields.io/github/repo-size/NemStudio18/pcbox-pcb-t106-rescue)](https://github.com/NemStudio18/pcbox-pcb-t106-rescue) [![Website Status](https://img.shields.io/website?down_color=red&down_message=offline&label=Site%20Web&up_color=success&up_message=online&url=https%3A%2F%2Fnemstudio18.github.io%2Fpcbox-pcb-t106-rescue%2F)](https://nemstudio18.github.io/pcbox-pcb-t106-rescue/) ![Android](https://img.shields.io/badge/Platform-Android-3DDC84?logo=android&logoColor=white)
+
+
 [🇬🇧 Read this in English](README_EN.md)
 
 > **Dépôt communautaire de sauvegarde, restauration et unbrick pour la tablette PCBOX PCB-T106 S10 (Digiland MID1058).**
