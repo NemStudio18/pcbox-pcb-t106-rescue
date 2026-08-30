@@ -1,3 +1,6 @@
+---
+permalink: /
+---
 # 🛠️ PCBOX PCB-T106 S10 (Allwinner A523) — Rescue & Debrick Pack
 
 [🇫🇷 Lire en Français](README.md)

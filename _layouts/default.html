@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <title>{{ page.title | default: site.title }}</title>
+    <meta name="description" content="{{ page.description | default: site.description | default: site.github.project_tagline }}"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <!-- FontAwesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+      .lang-toggle-btn {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        padding: 10px 15px;
+        border-radius: 6px;
+        background: rgba(255, 255, 255, 0.2);
+        color: white;
+        border: 1px solid rgba(255, 255, 255, 0.4);
+        cursor: pointer;
+        font-weight: bold;
+        transition: background 0.3s;
+      }
+      .lang-toggle-btn:hover {
+        background: rgba(255, 255, 255, 0.4);
+      }
+      @media screen and (max-width: 768px) {
+        .lang-toggle-btn {
+          top: 10px;
+          right: 10px;
+          padding: 8px 12px;
+          font-size: 0.9em;
+        }
+      }
+      .fa-emoji {
+        color: #157878;
+        margin-right: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+      <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+      
+      <!-- Language Toggle Button -->
+      <button class="lang-toggle-btn" onclick="toggleLanguage()">
+        <i class="fa-solid fa-language"></i> EN / FR
+      </button>
+
+      {% if site.github.is_project_page %}
+        <a href="{{ site.github.repository_url }}" class="btn"><i class="fa-brands fa-github"></i> View on GitHub</a>
+      {% endif %}
+    </section>
+
+    <section class="main-content" id="main-content">
+      {{ content }}
+
+      <footer class="site-footer">
+        {% if site.github.is_project_page %}
+          <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
+        {% endif %}
+      </footer>
+    </section>
+
+    <script>
+      function toggleLanguage() {
+        let path = window.location.pathname;
+        let base = '/pcbox-pcb-t106-rescue';
+        
+        // Root page toggle
+        if (path === base || path === base + '/') {
+            window.location.href = base + '/fr/';
+            return;
+        }
+        if (path === base + '/fr' || path === base + '/fr/') {
+            window.location.href = base + '/';
+            return;
+        }
+
+        // Subpages toggle
+        if (path.includes('_EN.html')) {
+            window.location.href = path.replace('_EN.html', '.html');
+        } else if (path.endsWith('.html')) {
+            window.location.href = path.replace('.html', '_EN.html');
+        }
+      }
+
+      // Replace emojis with FontAwesome icons dynamically
+      document.addEventListener("DOMContentLoaded", function() {
+        const emojiMap = {
+          '🛠️': 'fa-solid fa-wrench', '📌': 'fa-solid fa-thumbtack', '🚀': 'fa-solid fa-rocket',
+          '📁': 'fa-solid fa-folder-open', '📦': 'fa-solid fa-box', '⚡': 'fa-solid fa-bolt',
+          '🔓': 'fa-solid fa-unlock', '📜': 'fa-solid fa-file-code', '📖': 'fa-solid fa-book',
+          '🔌': 'fa-solid fa-plug', '🚨': 'fa-solid fa-triangle-exclamation', '🧬': 'fa-solid fa-dna',
+          '💾': 'fa-solid fa-floppy-disk', '🔄': 'fa-solid fa-rotate-right', '🗂️': 'fa-solid fa-folder-tree',
+          '⚠️': 'fa-solid fa-triangle-exclamation', '🛡️': 'fa-solid fa-shield-halved', '💻': 'fa-solid fa-laptop',
+          '🕹️': 'fa-solid fa-gamepad', '📴': 'fa-solid fa-power-off', '🔊': 'fa-solid fa-volume-high',
+          '🖐️': 'fa-solid fa-hand', '🖥️': 'fa-solid fa-desktop', '🐧': 'fa-brands fa-linux',
+          '🪟': 'fa-brands fa-windows', '⚙️': 'fa-solid fa-gear', '🎉': 'fa-solid fa-party-horn',
+          '🧱': 'fa-solid fa-brick', '📋': 'fa-solid fa-clipboard', '🅰️': 'fa-solid fa-a',
+          '🅱️': 'fa-solid fa-b', '🆎': 'fa-solid fa-a', '💥': 'fa-solid fa-burst',
+          '🌍': 'fa-solid fa-globe', '⬇️': 'fa-solid fa-download', '🕐': 'fa-solid fa-clock',
+          '⏳': 'fa-solid fa-hourglass-half', '☕': 'fa-solid fa-mug-hot', '📊': 'fa-solid fa-chart-bar',
+          '🏷️': 'fa-solid fa-tag', '📝': 'fa-solid fa-note-sticky', '🤖': 'fa-solid fa-robot',
+          '✨': 'fa-solid fa-wand-magic-sparkles', '🪄': 'fa-solid fa-wand-magic', '🔑': 'fa-solid fa-key',
+          '💉': 'fa-solid fa-syringe', '📥': 'fa-solid fa-inbox', '👑': 'fa-solid fa-crown',
+          '🏢': 'fa-solid fa-building', '🏳️': 'fa-solid fa-flag', '🔐': 'fa-solid fa-lock',
+          '🔒': 'fa-solid fa-lock', '🕳️': 'fa-solid fa-circle', '🌳': 'fa-solid fa-tree',
+          '🎬': 'fa-solid fa-clapperboard', '👤': 'fa-solid fa-user'
+        };
+
+        const content = document.getElementById('main-content');
+        
+        function replaceEmojis(node) {
+          if (node.nodeType === Node.TEXT_NODE) {
+            let text = node.nodeValue;
+            let replaced = false;
+            let fragment = document.createDocumentFragment();
+            let lastIdx = 0;
+
+            // Simple regex to match our specific emojis
+            const regex = new RegExp('(' + Object.keys(emojiMap).join('|') + ')', 'g');
+            let match;
+
+            while ((match = regex.exec(text)) !== null) {
+              replaced = true;
+              // Add text before emoji
+              if (match.index > lastIdx) {
+                fragment.appendChild(document.createTextNode(text.substring(lastIdx, match.index)));
+              }
+              // Add FontAwesome icon
+              let i = document.createElement('i');
+              i.className = emojiMap[match[0]] + ' fa-emoji';
+              fragment.appendChild(i);
+              lastIdx = regex.lastIndex;
+            }
+
+            if (replaced) {
+              if (lastIdx < text.length) {
+                fragment.appendChild(document.createTextNode(text.substring(lastIdx)));
+              }
+              node.parentNode.replaceChild(fragment, node);
+            }
+          } else if (node.nodeType === Node.ELEMENT_NODE && node.nodeName !== 'SCRIPT' && node.nodeName !== 'STYLE' && node.nodeName !== 'CODE') {
+            // Don't replace inside code blocks
+            Array.from(node.childNodes).forEach(replaceEmojis);
+          }
+        }
+
+        replaceEmojis(content);
+      });
+    </script>
+  </body>
+</html>
