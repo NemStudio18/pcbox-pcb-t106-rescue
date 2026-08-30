@@ -1,31 +1,72 @@
-# PCBOX PCB-T106 S10 (Allwinner A523) - Rescue & Debrick
+# 🛠️ PCBOX PCB-T106 S10 (Allwinner A523) — Rescue & Debrick Pack
 
-Bienvenue sur le dépôt communautaire dédié à la sauvegarde, la restauration et le débriçage de la tablette **PCBOX PCB-T106 S10** (aussi connue sous le nom générique Digiland MID1058), propulsée par le SoC **Allwinner A523**.
+[🇬🇧 Read this in English](README_EN.md)
 
-Ce dépôt a été créé suite à un "hard brick" (corruption de la partition `boot` contenant le recovery sur une architecture A/B) et à sa restauration réussie via le mode matériel FEL.
-
-## Pourquoi ce dépôt ?
-Les tablettes dites "blanches" (génériques) fournissent rarement des firmwares officiels au public. Si vous modifiez votre tablette (root, GSI, custom ROM) et que vous la bloquez sur un écran noir ou un logo de démarrage, vous n'avez généralement aucun moyen de la récupérer.
-
-Ce projet rassemble :
-- Les **dumps originaux** des partitions d'usine (boot, vbmeta, dtbo, GPT)
-- La **partition super (système complet)** compressée [disponible dans les Releases]
-- Les **guides pas-à-pas** pour communiquer avec le processeur directement via USB (mode FEL)
-- Les **scripts automatiques** de sauvegarde (via ADB root ou FEL)
-
-## Documentation disponible
-
-1. 📖 **[Guide de Débriçage (Hard Brick)](DEBRICK_GUIDE.md)** : Comment ramener votre tablette à la vie si elle ne s'allume plus du tout.
-2. 🔌 **[Comment entrer en mode FEL](FEL_MODE.md)** : La combinaison secrète de boutons pour forcer la puce Allwinner à communiquer avec le PC.
-3. 🧬 **[Hardware & Spécifications](HARDWARE.md)** : Tous les détails techniques, logs noyau (`dmesg`), et identifiants matériels (getprop) de la tablette.
-4. 💾 **[Tableau des Partitions](PARTITIONS.md)** : La liste complète des 28 partitions de la mémoire eMMC (Tailles, LBA, Utilité).
-5. 🔄 **[Firmwares Compatibles](COMPATIBILITY.md)** : Les firmwares clones testés et fonctionnels (comme le Teclast P30T).
-
-## Contenu du dépôt (Fichiers techniques)
-
-- `dumps/` : Contient les images brutes des petites partitions (boot, dtbo, vbmeta...).
-- `scripts/` : Scripts shell pour automatiser les sauvegardes (`dump_all_adb.sh` pour ADB Root, `dump_all_fel.sh` pour le mode FEL).
-- `reference/` : Exports texte des configurations système (`cpuinfo`, `lsmod`, `getprop`, etc.).
+> **Dépôt communautaire de sauvegarde, restauration et unbrick pour la tablette PCBOX PCB-T106 S10 (Digiland MID1058).**
 
 ---
-*Maintenu par NemStudio18 et la communauté open-source.*
+
+## 📌 Présentation
+
+Ce dépôt rassemble les ressources techniques, les dumps de partitions et la documentation nécessaires pour réparer ou flasher la tablette **PCBOX PCB-T106 S10** (vendue sous diverses marques génériques comme *Digiland*).
+
+Ce projet est né suite à la résolution d'un **hard brick** (corruption du boot sur architecture A/B) résolu via l'extraction/injection directe en **mode matériel FEL** (en combinant le noyau de la Teclast P30T).
+
+---
+
+## 🚀 Pourquoi ce projet ?
+
+Les tablettes "noname" ou sous-marque fournissent très rarement des firmwares officiels (`.img` PhoenixSuit/LiveSuit). En cas de mauvaise manipulation (root, tentative d'installation de GSI, fausse commande), la tablette devient inutilisable sans dump d'usine.
+
+**Ce pack de secours contient :**
+
+* 📁 **Dumps d'usine réels :** Partitions critiques d'origine (`boot_a`, `vendor_boot`, `dtbo`, `vbmeta`, table GPT).
+* 📦 **Partition `super.img` d'origine :** Système Android complet compressé (disponible dans la section [Releases](../../releases)).
+* ⚡ **Guides de débriçage étape par étape :** Injections en mode matériel FEL quand l'écran reste noir.
+* 🔓 **Guides de personnalisation :** Instructions pour déverrouiller le bootloader et obtenir les droits Root via Magisk.
+* 📜 **Scripts d'automatisation :** Outils de dump complet via ADB Root ou mode FEL.
+
+---
+
+## 📖 Sommaire de la documentation
+
+* 🔌 **[Comment entrer en Mode FEL](docs/FEL_MODE.md)** — Procédure matérielle pour forcer la puce Allwinner à communiquer via USB.
+* 🚨 **[Guide de Débriçage (Hard-Brick)](docs/DEBRICK_GUIDE.md)** — Guide étape par étape pour ressusciter une tablette complètement inactive.
+* 🔓 **[Déverrouillage Bootloader & Root Magisk](docs/BOOTLOADER_ROOT.md)** — Comment libérer la tablette et obtenir l'accès root.
+* 🧬 **[Matériel & Spécifications](docs/HARDWARE.md)** — Empreinte matérielle brute (`dmesg`, `lsmod`, `getprop`, détails SoC).
+* 💾 **[Structure des Partitions](docs/PARTITIONS.md)** — Table complète des 28 partitions eMMC (adresses LBA, rôles et tailles).
+* 🔄 **[Compatibilité Firmwares](docs/COMPATIBILITY.md)** — Retours d'expériences sur les firmwares compatibles (ex: *Teclast P30T*).
+
+---
+
+## 🗂️ Structure du Dépôt
+
+```text
+├── docs/                   # Documentation technique détaillée (Guides, Tutos)
+├── dumps/                  # Images brutes des partitions système (< 100 Mo)
+│   ├── boot_a.img          # Partition de démarrage (Noyau)
+│   └── gpt-raw.img         # Table de partitionnement brute
+├── reference/              # Logs système bruts (dmesg, lsmod, getprop, cpuinfo)
+└── scripts/                # Scripts d'automatisation
+    ├── dump_all_adb.sh     # Dump complet via ADB (Root requis)
+    ├── dump_all_fel.sh     # Dump complet via le mode FEL
+    └── restore_boot.sh     # Restauration d'urgence via FEL
+```
+
+> ⚠️ **Note concernant `super.img` (Système complet) :**
+> En raison de sa taille (~3.5 Go), l'image brute de la partition `super` est disponible sous forme d'archive compressée (`super.img.zst`) directement sur la **[page des Releases](../../releases/latest)**.
+
+---
+
+## 🛠️ Outils Requis
+
+* **Linux (recommandé) ou Windows** avec les pilotes USB Allwinner.
+* **[sunxi-tools](https://github.com/linux-sunxi/sunxi-tools)** (pour les opérations en mode FEL).
+* **ADB & Fastboot** (`android-tools`).
+* **zstd** (pour décompresser l'image `super.img.zst`).
+
+---
+
+## ⚠️ Avertissement (Disclaimer)
+
+*Les fichiers et procédures partagés ici sont fournis à des fins d'entraide et de préservation matérielle. L'auteur et les contributeurs déclinent toute responsabilité en cas de dommage causé à votre appareil. Veillez à sauvegarder vos propres partitions uniques (`persist`, `proinfo`, `nvram`) si votre tablette est encore fonctionnelle afin de ne pas perdre vos adresses MAC et numéros de série d'origine.*
