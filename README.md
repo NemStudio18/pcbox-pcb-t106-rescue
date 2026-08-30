@@ -22,7 +22,7 @@ Les tablettes "noname" ou sous-marque fournissent très rarement des firmwares o
 
 * 📁 **Dumps d'usine réels :** Partitions critiques d'origine (`boot_a`, `vendor_boot`, `dtbo`, `vbmeta`, table GPT).
 * 📦 **Partition `super.img` d'origine :** Système Android complet compressé (disponible dans la section [Releases](../../releases)).
-* ⚡ **Guides de débriçage étape par étape :** Injections en mode matériel FEL quand l'écran reste noir.
+* ⚡ **Guides d'unbrick étape par étape :** Injections en mode matériel FEL quand l'écran reste noir.
 * 🔓 **Guides de personnalisation :** Instructions pour déverrouiller le bootloader et obtenir les droits Root via Magisk.
 * 📜 **Scripts d'automatisation :** Outils de dump complet via ADB Root ou mode FEL.
 
@@ -31,7 +31,7 @@ Les tablettes "noname" ou sous-marque fournissent très rarement des firmwares o
 ## 📖 Sommaire de la documentation
 
 * 🔌 **[Comment entrer en Mode FEL](docs/FEL_MODE.md)** — Procédure matérielle pour forcer la puce Allwinner à communiquer via USB.
-* 🚨 **[Guide de Débriçage (Hard-Brick)](docs/DEBRICK_GUIDE.md)** — Guide étape par étape pour ressusciter une tablette complètement inactive.
+* 🚨 **[Guide d'Unbrick (Hard-Brick)](docs/DEBRICK_GUIDE.md)** — Guide étape par étape pour ressusciter une tablette complètement inactive.
 * 🔓 **[Déverrouillage Bootloader & Root Magisk](docs/BOOTLOADER_ROOT.md)** — Comment libérer la tablette et obtenir l'accès root.
 * 🧬 **[Matériel & Spécifications](docs/HARDWARE.md)** — Empreinte matérielle brute (`dmesg`, `lsmod`, `getprop`, détails SoC).
 * 💾 **[Structure des Partitions](docs/PARTITIONS.md)** — Table complète des 28 partitions eMMC (adresses LBA, rôles et tailles).

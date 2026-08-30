@@ -1,4 +1,4 @@
-# 🚨 Guide de Débriçage (Hard Brick)
+# 🚨 Guide d'Unbrick (Hard Brick)
 
 [🇬🇧 Read this in English](DEBRICK_GUIDE_EN.md) | [🇫🇷 Lire en Français](DEBRICK_GUIDE.md)
 
